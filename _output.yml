@@ -4,9 +4,7 @@ bookdown::bs4_book:
     primary: "#096B72"
     font_scale: -0.05
   repo: https://github.com/rstudio/bookdown-demo
-  config:
-    toc:
-      collapse: vai toma no cu
+
   
 bookdown::pdf_book:
   includes:

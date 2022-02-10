@@ -20,4 +20,3 @@ csl: chicago-fullnote-bibliography.csl
 Resumo do curso de MBA gestão empresarial da FGV.
 
 
-

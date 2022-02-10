@@ -19,7 +19,6 @@ csl: chicago-fullnote-bibliography.csl
 
 Resumo do curso de MBA gestão empresarial da FGV.
 
-
 ```{r include=F}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
