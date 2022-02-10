@@ -4,16 +4,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 11 Matemática financeira | A Minimal Book Example</title>
-<meta name="author" content="John Doe">
+<title>Chapter 11 Matemática financeira | FGV MBA Gestão Empresarial</title>
+<meta name="author" content="Eduardo dos Santos Almeida">
 <meta name="description" content="11.1 Conceitos fundamentais VDT: Valor do dinheiro no tempo Um mesmo valor unitário vale mais recebendo hoje que no futuro Aplicações da matemática financeira: Comparar a melhor relação de uso do...">
 <meta name="generator" content="bookdown 0.24 with bs4_book()">
-<meta property="og:title" content="Chapter 11 Matemática financeira | A Minimal Book Example">
+<meta property="og:title" content="Chapter 11 Matemática financeira | FGV MBA Gestão Empresarial">
 <meta property="og:type" content="book">
+<meta property="og:url" content="https://eduardodudu.github.io/FGV_KeyNotes/matemática-financeira.html">
+<meta property="og:image" content="https://eduardodudu.github.io/FGV_KeyNotes/images/fgv-logo.png">
 <meta property="og:description" content="11.1 Conceitos fundamentais VDT: Valor do dinheiro no tempo Um mesmo valor unitário vale mais recebendo hoje que no futuro Aplicações da matemática financeira: Comparar a melhor relação de uso do...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 11 Matemática financeira | A Minimal Book Example">
+<meta name="twitter:title" content="Chapter 11 Matemática financeira | FGV MBA Gestão Empresarial">
 <meta name="twitter:description" content="11.1 Conceitos fundamentais VDT: Valor do dinheiro no tempo Um mesmo valor unitário vale mais recebendo hoje que no futuro Aplicações da matemática financeira: Comparar a melhor relação de uso do...">
+<meta name="twitter:image" content="https://eduardodudu.github.io/FGV_KeyNotes/images/fgv-logo.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -29,7 +32,7 @@
 
     <div class="d-flex align-items-start justify-content-between">
       <h1>
-        <a href="index.html" title="">A Minimal Book Example</a>
+        <a href="index.html" title="">FGV MBA Gestão Empresarial</a>
       </h1>
       <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
     </div>
@@ -266,7 +269,7 @@ du = Dias úteis</p>
 <span class="header-section-number">11.4.2.1</span> Valor presente Líquido (VPL)<a class="anchor" aria-label="anchor" href="#valor-presente-l%C3%ADquido-vpl"><i class="fas fa-link"></i></a>
 </h4>
 <p>Trata-se do cálculo do valor presente dado diferentes valores de pagamentos.</p>
-<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">FinancialMath</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/FinancialMath/man/NPV.html">NPV</a></span><span class="op">(</span>cf0 <span class="op">=</span> <span class="fl">1000</span>, cf <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">100</span>,<span class="fl">200</span>,<span class="fl">100</span>,<span class="fl">400</span>, <span class="op">-</span><span class="fl">500</span>,<span class="fl">200</span>,<span class="fl">600</span>,<span class="fl">150</span><span class="op">)</span>, times <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1</span>,<span class="fl">3</span>,<span class="fl">3</span>,<span class="fl">4</span>,<span class="fl">3</span>,<span class="fl">5</span>,<span class="fl">6</span>,<span class="fl">2</span><span class="op">)</span>, i <span class="op">=</span>  <span class="fl">0.02</span>, plot <span class="op">=</span> <span class="cn">T</span><span class="op">)</span></code></pre></div>
 <div class="inline-figure"><img src="11-Matematica-Financeira_files/figure-html/unnamed-chunk-20-1.png" width="672"></div>
 <pre><code>#&gt; [1] 137</code></pre>
@@ -279,10 +282,10 @@ VPL &lt; 0 -&gt; Retorno negativo</p>
 <span class="header-section-number">11.4.2.2</span> Taxa interna de retorno (TIR)<a class="anchor" aria-label="anchor" href="#taxa-interna-de-retorno-tir"><i class="fas fa-link"></i></a>
 </h4>
 <p>Trata-se da taxa que torna o VPL = 0. Esta taxa é importante para comparar se o investimento é mais rentável que outros investimentos, chamado de custo de oportunidade.</p>
-<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">FinCal</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/FinCal/man/irr.html">irr</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">1000</span>, <span class="fl">100</span>, <span class="fl">150</span>, <span class="op">-</span><span class="fl">200</span>, <span class="fl">400</span>, <span class="fl">200</span>, <span class="fl">600</span><span class="op">)</span><span class="op">)</span>
 <span class="co">#&gt; [1] 0.048</span></code></pre></div>
-<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">FinCal</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/FinCal/man/npv.html">npv</a></span><span class="op">(</span><span class="fl">0.048</span>, <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="op">-</span><span class="fl">1000</span>, <span class="fl">100</span>, <span class="fl">150</span>, <span class="op">-</span><span class="fl">200</span>, <span class="fl">400</span>, <span class="fl">200</span>, <span class="fl">600</span><span class="op">)</span><span class="op">)</span>
 <span class="co">#&gt; [1] 0.92</span></code></pre></div>
 <blockquote>
@@ -309,7 +312,7 @@ Caso contrário -&gt; Permanecer com o investimento anterior</p>
 </ol>
 <div class="inline-figure"><img src="01.%20Data/01.%20Images/11.%20Sistema%20Price.PNG" width="968" style="display: block; margin: auto;"></div>
 <p>Ex: Empréstimo de 10 mil reais a uma taxa de 5% ao ano</p>
-<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">amort.table</span><span class="op">(</span>Loan<span class="op">=</span><span class="fl">10000</span>,pmt<span class="op">=</span><span class="cn">NA</span>,n<span class="op">=</span><span class="fl">10</span>,i<span class="op">=</span><span class="fl">.05</span>,plot<span class="op">=</span><span class="cn">T</span><span class="op">)</span></code></pre></div>
 <div class="inline-figure"><img src="11-Matematica-Financeira_files/figure-html/unnamed-chunk-24-1.png" width="672"></div>
 <pre><code>#&gt; $Schedule
@@ -342,7 +345,7 @@ Caso contrário -&gt; Permanecer com o investimento anterior</p>
 <h2>
 <span class="header-section-number">11.6</span> Outros cálculos no R<a class="anchor" aria-label="anchor" href="#outros-c%C3%A1lculos-no-r"><i class="fas fa-link"></i></a>
 </h2>
-<div class="sourceCode" id="cb20"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co">#FinCalc</span>
 <span class="fu">FinCal</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/FinCal/man/fv.annuity.html">fv.annuity</a></span><span class="op">(</span><span class="fl">0.04</span>, <span class="fl">10</span>, <span class="fl">200</span>,<span class="fl">1</span><span class="op">)</span>
 <span class="co">#&gt; [1] -2497</span>
@@ -412,7 +415,7 @@ FinancialMath::TVM(1000, n = 50, i = 0.02, plot = T)</code></pre>
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>A Minimal Book Example</strong>" was written by John Doe. It was last built on 2022-02-10.</p>
+    <p>"<strong>FGV MBA Gestão Empresarial</strong>" was written by Eduardo dos Santos Almeida. It was last built on 2022-02-10.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

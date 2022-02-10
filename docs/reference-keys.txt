@@ -6,9 +6,6 @@ tab:unnamed-chunk-37
 tab:unnamed-chunk-38
 tab:unnamed-chunk-35
 about
-usage
-render-book
-preview-book
 gestao-estrategica
 evolução-do-pensamento-estratégico
 estratégia
