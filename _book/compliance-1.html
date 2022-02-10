@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 16 Compliance | A Minimal Book Example</title>
+<meta name="author" content="John Doe">
+<meta name="description" content="16.1 Origem e evolução  16.1.1 Histórico   16.1.2 Definições  Compliance: A expressão Compliance se origina do verbo em inglês to comply, que significa, em síntese, satisfazer as imposições de...">
+<meta name="generator" content="bookdown 0.24 with bs4_book()">
+<meta property="og:title" content="Chapter 16 Compliance | A Minimal Book Example">
+<meta property="og:type" content="book">
+<meta property="og:description" content="16.1 Origem e evolução  16.1.1 Histórico   16.1.2 Definições  Compliance: A expressão Compliance se origina do verbo em inglês to comply, que significa, em síntese, satisfazer as imposições de...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 16 Compliance | A Minimal Book Example">
+<meta name="twitter:description" content="16.1 Origem e evolução  16.1.1 Histórico   16.1.2 Definições  Compliance: A expressão Compliance se origina do verbo em inglês to comply, que significa, em síntese, satisfazer as imposições de...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="libs/kePrint-0.0.1/kePrint.js"></script><link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<link href="libs/tabwid-1.0.0/tabwid.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="bs4_style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">A Minimal Book Example</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"><span class="header-section-number">1</span> About</a></li>
+<li><a class="" href="gestao-estrategica.html"><span class="header-section-number">2</span> Gestão Estratégica</a></li>
+<li><a class="" href="Gestao-de-pessoas.html"><span class="header-section-number">3</span> Gestão de pessoas</a></li>
+<li><a class="" href="gestao-projetos.html"><span class="header-section-number">4</span> Gestão de projetos</a></li>
+<li><a class="" href="gest%C3%A3o-de-conflitos.html"><span class="header-section-number">5</span> Gestão de conflitos</a></li>
+<li><a class="" href="marketing.html"><span class="header-section-number">6</span> Marketing</a></li>
+<li><a class="" href="%C3%A9tica-e-sustentabilidade.html"><span class="header-section-number">7</span> Ética e sustentabilidade</a></li>
+<li><a class="" href="gest%C3%A3o-estrat%C3%A9gica-1.html"><span class="header-section-number">8</span> Gestão estratégica</a></li>
+<li><a class="" href="contabilidade-financeira.html"><span class="header-section-number">9</span> Contabilidade financeira</a></li>
+<li><a class="" href="economia-empresarial.html"><span class="header-section-number">10</span> Economia Empresarial</a></li>
+<li><a class="" href="matem%C3%A1tica-financeira.html"><span class="header-section-number">11</span> Matemática financeira</a></li>
+<li><a class="" href="direito-empresarial.html"><span class="header-section-number">12</span> Direito Empresarial</a></li>
+<li><a class="" href="finan%C3%A7as-corporativas.html"><span class="header-section-number">13</span> Finanças Corporativas</a></li>
+<li><a class="" href="qualidade-e-processos.html"><span class="header-section-number">14</span> Qualidade e processos</a></li>
+<li><a class="" href="or%C3%A7amento-e-controle.html"><span class="header-section-number">15</span> Orçamento e controle</a></li>
+<li><a class="active" href="compliance-1.html"><span class="header-section-number">16</span> Compliance</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="compliance-1" class="section level1" number="16">
+<h1>
+<span class="header-section-number">16</span> Compliance<a class="anchor" aria-label="anchor" href="#compliance-1"><i class="fas fa-link"></i></a>
+</h1>
+<div id="origem-e-evolução" class="section level2" number="16.1">
+<h2>
+<span class="header-section-number">16.1</span> Origem e evolução<a class="anchor" aria-label="anchor" href="#origem-e-evolu%C3%A7%C3%A3o"><i class="fas fa-link"></i></a>
+</h2>
+<div id="histórico-1" class="section level3" number="16.1.1">
+<h3>
+<span class="header-section-number">16.1.1</span> Histórico<a class="anchor" aria-label="anchor" href="#hist%C3%B3rico-1"><i class="fas fa-link"></i></a>
+</h3>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Historico.png" width="3876" style="display: block; margin: auto;"></div>
+</div>
+<div id="definições-1" class="section level3" number="16.1.2">
+<h3>
+<span class="header-section-number">16.1.2</span> Definições<a class="anchor" aria-label="anchor" href="#defini%C3%A7%C3%B5es-1"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Compliance:</strong> A expressão Compliance se origina do verbo em inglês to comply, que significa, em síntese, satisfazer as imposições de ordem legal ou de ordem interna da empresa</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>
+<strong>Objetivo:</strong> Mitigar os riscos decorrentes do cometimento de condutas pessoais ou organizacionais consideradas ilícitasou incoerentes com princípios, missões, visão ou objetivos de uma empresa</li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li><p><strong>Risco de Compliance:</strong> Risco legal, de sanções regulatórias, de perda financeira ou perda de reputação</p></li>
+<li><p><strong>Ser compliance:</strong> É conhecer as normas da organização, seguir os procedimentos recomendados, agir em conformidade e sentir o quanto a ética e a idoneidade são fundamentais em todas as nossas atitudes.</p></li>
+<li><p><strong>Estar em compliance:</strong> Estar em conformidade com as leis e os regulamentos internos e externos à organização.</p></li>
+</ol>
+<blockquote>
+<p>Ser compliance e estar em compliance é, acima de tudo, uma obrigação individual de cada colaborador dentro da instituição.</p>
+</blockquote>
+<p><strong>Nove passos de Compliance:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Direção:</strong> O exemplo deve vir da Alta Direção da organização (tone at the top)</p></li>
+<li><p><strong>Supervisão:</strong> Acompanhamento e monitoramento da conduta ética</p></li>
+<li><p><strong>Gestão e conscientização:</strong> Implementação e manutenção constante das políticas de
+Compliance da organização e do código de ética, com a determinação de setor responsável
+pelo compliance como um comitê exclusivo</p></li>
+<li><p><strong>Risk assessment:</strong> Estimativa e monitoramento dos riscos inerentes a cada situação
+evidenciada</p></li>
+<li><p><strong>Treinamentos:</strong> Realização de treinamentos periódicos, incluindo também a comunicação
+com todos os atores da organização, com a disseminação da cultura do compliance</p></li>
+<li><p><strong>Revisão periódica:</strong> Melhoria, adaptação e correção da política de compliance</p></li>
+<li><p><strong>Controle e reforço:</strong> controle interno e auditoria interna como forma de aprimoramento
+contínuo</p></li>
+<li><p><strong>Due diligence:</strong> Investigação para a confirmação dos dados e da conduta ética profissional
+individual</p></li>
+<li><p><strong>Whistleblowing:</strong> Canal de denúncias, investigação e mecanismos disciplinares.</p></li>
+</ol>
+<p><strong>Programas</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Programa de integridade</p></li>
+<li><p>Programa de compliance</p></li>
+<li><p>Programa de antissuborno</p></li>
+</ol>
+</div>
+<div id="normas" class="section level3" number="16.1.3">
+<h3>
+<span class="header-section-number">16.1.3</span> Normas<a class="anchor" aria-label="anchor" href="#normas"><i class="fas fa-link"></i></a>
+</h3>
+<p><strong>Motivos de corrupção:</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Motivos%20Corrupcao.PNG" width="1534" style="display: block; margin: auto;"></div>
+<ol style="list-style-type: decimal">
+<li><strong>Security and Exchanges Commission</strong></li>
+</ol>
+<p>a Comissão de Valores Mobiliários dos Estados Unidos, devido a grande depressão (1929).</p>
+<p>É uma agência federal, cuja responsabilidade é velar pela aplicação das leis e também regular opções de câmbio e valores mobiliários.</p>
+<p>As suas cinco principais divisões internas são:</p>
+<ol style="list-style-type: decimal">
+<li><p>Finança de corporação</p></li>
+<li><p>Comércio e mercados</p></li>
+<li><p>Gestão de investimentos</p></li>
+<li><p>Execução</p></li>
+<li><p>Análise econômica e de riscos</p></li>
+<li><p><strong>Foreign Corrupt Practices Act (1977)</strong></p></li>
+</ol>
+<p>A Foreign Corrupt Practices Act (Ato Antipráticas de Corrupção Externa) nos Estados Unidos visa:</p>
+<ol style="list-style-type: decimal">
+<li><p>Combater o suborno de gestores e colaboradores de empresas</p></li>
+<li><p>Tornar mais transparente a contabilidade empresarial</p></li>
+<li><p>Fiscalizar a efetivação e o cumprimento das políticas organizacionais como meio de mitigar riscos e gerir conflitos internos.</p></li>
+</ol>
+<p><strong>Sujeitos envolvidos</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Emissores (Issuers): Companhias de capital aberto negociando nos EUA</p></li>
+<li><p>Domestic Concerns (Preocupações domésticas): É necessário que haja cidadania americana ou que a empresa esteja sediada nos EUA</p></li>
+<li><p>Foreign nationals or entities (cidadãos ou entidades estrangeiras): Os demais, para os casos em que o ato comercial ocorra nos EUA</p></li>
+</ol>
+<p>Para a FCPA:</p>
+<ol style="list-style-type: decimal">
+<li><p>Quatro ações do indivíduo ou da empresa, geram responsabilidade: Pagar, Oferecer e prometer (autorizar)</p></li>
+<li><p>Objeto: Dinheiro ou qualquer coisa de com intuito de corromper</p></li>
+<li><p>Meio: Direto ou através de terceiros com finalidade de obter qualquer vantagem ilícita</p></li>
+<li><p><strong>OCDE (1977)</strong></p></li>
+</ol>
+<p>Realização, em Paris, da Organização para a Cooperação e o Desenvolvimento Econômico (OCDE), convenção sobre o combate da corrupção de funcionários públicos estrangeiros em transações comerciais internacionais.</p>
+<p>Foi internalizada no Brasil pelo Decreto nº 3.678/2000, expressamente citado no artigo 9º da Lei nº 12.846/13.</p>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Dodd-Frank Act (2010)</strong></li>
+</ol>
+<p>O Dodd-Frank Act, assim como outros atos regulatórios ou outras leis, surgiu após a crise que se iniciou em 2008, sendo incluído por especialistas no mercado financeiro como uma das normas anticrise. A sua origem foi o desregulado mercado financeiro dos Estados Unidos, mais especificamente no mercado de financiamento (ou refinanciamento) de imóveis, conhecido como bolha imobiliária.</p>
+<blockquote>
+<p>A crise financeira que teve início em 2008 se deu, em parte, pela baixa regulação do mercado financeiro e pela crença em grandes bancos. A maior crise desde a Grande Depressão, em 1929, foi responsável pela falência de inúmeros bancos e empresas. Somente nos Estados Unidos, houve uma perda de oito milhões de empregos.</p>
+</blockquote>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>Foreign Account Tax Compliance Act (2010)</strong></li>
+</ol>
+<p>A Foreign Account Tax Compliance Act (FATCA), lei americana de conformidade tributária de contas estrangeiras, obriga instituições bancárias de outros países a fornecerem dados dos seus correntistas às autoridades americanas, desde que esses sejam cidadãos norte-americanos. As instituições financeiras podem encaminhar os dados diretamente ao Fisco americano ou podem utilizar o local como intermediário nessa tarefa. As instituições que descumprirem essas diretivas sujeitam-se a ver remessas de bancos americanos serem taxadas em 30% do valor.</p>
+<p>Todas as instituições financeiras (de todo o mundo) estão sujeitas ao Fatca, sob pena de serem tarifadas nas operações efetuadas com instituições em solo americano.</p>
+<p>No Brasil não é diferente, pois o nosso governo assinou um Acordo de Cooperação Intergovernamental (IGA) com o governo americano para a troca dessas informações. O acordo foi promulgado no Brasil por meio do Decreto nº 8.506/15, a partir do Acordo para a Melhoria da Observância Tributária Internacional e a Implementação do FATCA, firmado em Brasília, em 23 de setembro de 2014.</p>
+<ol start="6" style="list-style-type: decimal">
+<li><strong>United Kingdom Bribery Act (2010)</strong></li>
+</ol>
+<p>O UK Bribery Act (UKBA) é uma lei britânica de combate e prevenção à corrupção nas empresas, considerada uma das mais severas do mundo. Em muitos aspectos, os seus critérios ultrapassam o FCPA, a lei norte-americana que seria a sua equivalente.</p>
+<p>Podemos dizer que o UKBA tem uma vocação transnacional, uma vez que se aplica a pessoas coletivas, com sede (ou, no limite, com representação societária) no Reino Unido (Inglaterra, País de Gales, Escócia e Irlanda do Norte), bem como a quem realiza negócios com pessoas coletivas estabelecidas no Reino Unido.</p>
+<p>Segundo a section 12 (4), do UK Bribery Act, Consideram-se pessoas com vínculo próximo ao Reino Unido:</p>
+<ol style="list-style-type: decimal">
+<li><p>Os cidadãos britânicos e diversas outras pessoas que possuem passaporte britânico</p></li>
+<li><p>Residentes do Reino Unido</p></li>
+<li><p>Pessoas jurídicas criadas sob as leis de quaisquer integrantes do Reino Unido ou uma parceria escocesa</p></li>
+</ol>
+<p><strong>Princípios gerais da UK Bribery Act:</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Principios%20UKBA.png" width="1962" style="display: block; margin: auto;"></div>
+<ol start="7" style="list-style-type: decimal">
+<li><strong>Lei de Anticorrupção (2013)</strong></li>
+</ol>
+<p>A Lei nº 12.846/13 cita a responsabilização, civil e administrativa, da pessoa jurídica, pela prática de atos lesivos contra a administração pública, nacional ou estrangeira, e nasceu com base em compromissos firmados pelo Brasil para combater a corrupção. Como exemplo, agora temos tipificado no art. 5º quais são os atos lesivos à administração pública, seja nacional ou estrangeira:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Lei%20Anticorrupcao.png" width="2575" style="display: block; margin: auto;"></div>
+</div>
+<div id="boa-governança" class="section level3" number="16.1.4">
+<h3>
+<span class="header-section-number">16.1.4</span> Boa governança<a class="anchor" aria-label="anchor" href="#boa-governan%C3%A7a"><i class="fas fa-link"></i></a>
+</h3>
+<p>A governança corporativa é um conjunto completo de ações que visam ao bom funcionamento da instituição. Um programa de Compliance eficaz é capaz de transformar uma organização, trazendo credibilidade, investimentos, crescimento.</p>
+<p><strong>Definição de governança corporativa pelo IBGC:</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Governanca%20Corporativa.PNG" width="820" style="display: block; margin: auto;"></div>
+</div>
+</div>
+<div id="sistema-de-gestão-de-compliance" class="section level2" number="16.2">
+<h2>
+<span class="header-section-number">16.2</span> Sistema de gestão de compliance<a class="anchor" aria-label="anchor" href="#sistema-de-gest%C3%A3o-de-compliance"><i class="fas fa-link"></i></a>
+</h2>
+<p>A implementação do Sistema de Gestão de Compliance e Antissuborno é, respectivamente, o objetivo principal das Normas <strong>ISO 19600</strong> e <strong>ISO NBR 37001</strong>. A ISO é uma das organizações mais confiáveis e de maior credibilidade no mercado quando o tema é normatização de técnicas em escala global, daí atualmente estar presente em cerca de 160 países. Nesse contexto, a norma internacional <strong>ISO 19600:2014</strong> trata de orientações que vão desde a criação, desenvolvimento e implementação do Sistema de Gestão de Compliance (também chamado de Conformidade) até a avaliação, manutenção e melhoria contínua desse sistema</p>
+<div id="política-cultura-e-pilares-do-compliance" class="section level3" number="16.2.1">
+<h3>
+<span class="header-section-number">16.2.1</span> Política, cultura e pilares do Compliance<a class="anchor" aria-label="anchor" href="#pol%C3%ADtica-cultura-e-pilares-do-compliance"><i class="fas fa-link"></i></a>
+</h3>
+<div id="política-e-cultura" class="section level4" number="16.2.1.1">
+<h4>
+<span class="header-section-number">16.2.1.1</span> Política e cultura<a class="anchor" aria-label="anchor" href="#pol%C3%ADtica-e-cultura"><i class="fas fa-link"></i></a>
+</h4>
+<p>Ao elaborar o seu estatuto social, a organização coloca os seus objetivos, valores e a sua estrutura societária como um todo. A área da empresa responsável pelo Compliance vai analisar o seu estatuto, e, além disso, todas as demais instruções normativas existentes na organização, como pareceres, circulares, entre outros, e a partir daí terá uma noção dos valores a serem exigidos nas
+auditorias.</p>
+<p>Mendes e Carvalho (2017, p. 126 e ss.) afirmam que um programa de Compliance bem sucedido consiste na articulação estruturada, consistente e perene de diferentes iniciativas, como a definição e comunicação de valores éticos e competitivos pela Alta Direção, a criação de um código de conduta com regras claras e o desenvolvimento de estruturas para detecção e correção de falhas
+e infrações.</p>
+<blockquote>
+<p>O Compliance deve começar por quem deve dar o exemplo, a alta administração.</p>
+</blockquote>
+<ul>
+<li>
+<strong>Cultura de Compliance:</strong> Aplicação eficaz de métodos, tanto para a prevenção quanto para a elucidação de conflitos, o engajamento de diretrizes capazes de possibilitar uma vida saudável, transparente e linear das organizações.</li>
+</ul>
+</div>
+<div id="pilares" class="section level4" number="16.2.1.2">
+<h4>
+<span class="header-section-number">16.2.1.2</span> Pilares<a class="anchor" aria-label="anchor" href="#pilares"><i class="fas fa-link"></i></a>
+</h4>
+<p>De acordo com Giovanini (2017, p. 459 e ss.). Um programa de compliance é baseado em:</p>
+<ol style="list-style-type: decimal">
+<li><p>Simplicidade</p></li>
+<li><p>Fortes</p></li>
+<li><p>Abrangentes</p></li>
+<li><p>Sem margem para dúvidas</p></li>
+</ol>
+<p>E constituídos pelos três pilares:</p>
+<ol style="list-style-type: decimal">
+<li><p>Prevenir</p></li>
+<li><p>Detectar</p></li>
+<li><p>Corrigir</p></li>
+</ol>
+<p><strong>7 C’s (ISO 19600):</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Cultura</p></li>
+<li><p>Comportamento</p></li>
+<li><p>Controles</p></li>
+<li><p>Competências</p></li>
+<li><p>Comunicação,</p></li>
+<li><p>Comprometimento</p></li>
+<li><p>Consistência</p></li>
+</ol>
+<p><strong>Princípios do compliance (Blok):</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>O <strong>conselho de administração</strong> é responsável por <strong>acompanhar</strong> o gerenciamento do risco de Compliance da instituição financeira</p></li>
+<li><p>A <strong>alta administração</strong> da instituição financeira é responsável pelo <strong>gerenciamento</strong> do risco de Compliance.</p></li>
+<li><p>A <strong>alta administração</strong> é responsável por <strong>estabelecer e divulgar</strong> a política de Compliance da instituição</p></li>
+<li><p>A <strong>alta administração</strong> é responsável por <strong>estabelecer uma área de Compliance</strong> permanente e efetiva como parte da política da mesma</p></li>
+<li><p>A área de Compliance deve ser <strong>independente</strong>, pressupondo quatro elementos básicos:</p></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Status formal</li>
+<li>Existência de um coordenador responsável pelos trabalhos de gerenciamento do risco de Compliance</li>
+<li>Ausência de conflitos de interesse</li>
+<li>Acesso a informações e pessoas no exercício de suas atribuições</li>
+</ol>
+<ol start="6" style="list-style-type: decimal">
+<li><p>A área de Compliance deve ter os <strong>recursos necessários</strong> ao desempenho de suas responsabilidades de forma eficaz.</p></li>
+<li><p>A área de Compliance deve <strong>ajudar a alta administração</strong> no <strong>gerenciamento</strong> do risco de Compliance</p></li>
+<li><p>O <strong>escopo e a extensão das atividades</strong> da área de Compliance devem estar <strong>sujeitos à revisão periódica</strong> por parte da auditoria interna.</p></li>
+<li><p>As instituições devem <strong>atender às exigências legais e regulamentares</strong> aplicáveis nas jurisdições que operam</p></li>
+<li><p>O Compliance deve ser encarado como uma <strong>atividade central</strong> para o gerenciamento de risco</p></li>
+</ol>
+</div>
+</div>
+<div id="código-de-ética-e-os-programas-de-integridade" class="section level3" number="16.2.2">
+<h3>
+<span class="header-section-number">16.2.2</span> Código de ética e os programas de integridade<a class="anchor" aria-label="anchor" href="#c%C3%B3digo-de-%C3%A9tica-e-os-programas-de-integridade"><i class="fas fa-link"></i></a>
+</h3>
+<p><strong>Código de ética</strong></p>
+<p>As organizações, para um funcionamento linear, precisam de metas; para alcançar as metas, precisam de pessoas comprometidas. O comprometimento é fundamental para o crescimento da empresa e do funcionário dentro da empresa, e, para isso, este precisa saber o que a organização espera dele.</p>
+<p>O código de ética da organização funciona como um norte, contendo as exigências e expectativas do empregador para cada um dos seus funcionários. Tal documento é essencial para a efetivação de um programa completo de Compliance.</p>
+<p>O código de ética, durante a implementação do Compliance dirá quais são as condutas internas que os funcionários devem ter.</p>
+<p><strong>Programas de integridade e antissuborno</strong></p>
+<p>O art. 41 do Decreto nº 8.420, de 18 de março de 2015, define o que seria um programa de integridade:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Programa%20Integridade.PNG" width="914" style="display: block; margin: auto;"></div>
+<p>Já a ISO 37001 visa a implementar um Sistema de Gestão Antissuborno. Esta requer que a função de Compliance antissuborno seja provida por pessoa com <strong>competência, status, autoridade e independência apropriadas.</strong></p>
+</div>
+<div id="funções-do-compliance-officer-e-comprometimento-da-alta-direção" class="section level3" number="16.2.3">
+<h3>
+<span class="header-section-number">16.2.3</span> Funções do Compliance officer e comprometimento da alta direção<a class="anchor" aria-label="anchor" href="#fun%C3%A7%C3%B5es-do-compliance-officer-e-comprometimento-da-alta-dire%C3%A7%C3%A3o"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Compliance Officer:</strong> Responsável pela condução do Compliance, desde a sua implementação até quando estiver em plena execução na organização. Deve exercer 3 funções básicas:</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>
+<strong>Prevenção:</strong> Gerência de riscos</li>
+<li>
+<strong>Detecção:</strong> Monitoramento das não conformidades, indicadores de riscos, reclamações, canais de denúncias, entre outros</li>
+<li>
+<strong>Informação:</strong> Informar à Alta Direção sobre todas as não conformidades encontradas, assim como os meios que devem ser utilizados para corrigir tais anomalias</li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li><p><strong>Alta direção:</strong> Para dirigir uma organização é necessário um líder. O líder é seguido pelos seus exemplos e pela sua capacidade, e os funcionários são inspirados por alguém que luta diariamente pela empresa e por eles também.</p></li>
+<li><p><strong>Stakeholder:</strong> Os Stakeholders são as partes interessadas, e podem ser divididos em internos e externos. Os internos são acionistas, Alta Direção, assessoria jurídica, auditoria interna, finanças e TI, entre outros. Já os externos são clientes, agências reguladoras, empresas consorciadas e patrocinadores, entre outros.</p></li>
+</ol>
+</div>
+</div>
+<div id="normas-anticorrupção-antissuborno-e-compliance-público" class="section level2" number="16.3">
+<h2>
+<span class="header-section-number">16.3</span> Normas anticorrupção, antissuborno e compliance público<a class="anchor" aria-label="anchor" href="#normas-anticorrup%C3%A7%C3%A3o-antissuborno-e-compliance-p%C3%BAblico"><i class="fas fa-link"></i></a>
+</h2>
+<div id="normas-anticorrupção-e-a-lei-nº-12.84613" class="section level3" number="16.3.1">
+<h3>
+<span class="header-section-number">16.3.1</span> Normas anticorrupção e a Lei nº 12.846/13<a class="anchor" aria-label="anchor" href="#normas-anticorrup%C3%A7%C3%A3o-e-a-lei-n%C2%BA-12.84613"><i class="fas fa-link"></i></a>
+</h3>
+<p>O art. 7° da Lei Anticorrupção trata de itens que serão levados em consideração na aplicação das sanções e, no seu inciso VIII, diz o seguinte: “a existência de <strong>mecanismos</strong> e procedimentos internos <strong>de integridade</strong>, auditoria e incentivo à <strong>denúncia</strong> de irregularidades e a aplicação efetiva de <strong>códigos de ética</strong> e de conduta no âmbito da pessoa jurídica.”</p>
+<p>Alguns artigos da Lei nº 12.846/13 são de especial importância:</p>
+<ul>
+<li><strong>Responsabilidades:</strong></li>
+</ul>
+<ol style="list-style-type: decimal">
+<li><strong>Artigo 1º</strong></li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Lei%20Anticorrupcao_1.PNG" width="1428" style="display: block; margin: auto;"></div>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Artigo 3º</strong></li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Lei%20Anticorrupcao_2.PNG" width="1490" style="display: block; margin: auto;"></div>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Artigo 5º</strong></li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Lei%20Anticorrupcao_3.PNG" width="1484" style="display: block; margin: auto;"></div>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Artigo 14º</strong></li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Lei%20Anticorrupcao_4.PNG" width="1501" style="display: block; margin: auto;"></div>
+<ul>
+<li><strong>Sanções</strong></li>
+</ul>
+<ol style="list-style-type: decimal">
+<li><strong>Artigo 2º</strong></li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Sancoes%20Art%202.PNG" width="1021" style="display: block; margin: auto;"></div>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Artigo 6º</strong></li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Sancoes%20Art%206.png" width="3074" style="display: block; margin: auto;"></div>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Artigo 19</strong></li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Sancoes%20Art%2019.PNG" width="989" style="display: block; margin: auto;"></div>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Artigo 22</strong></li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Sancoes%20Art%2022.png" width="2531" style="display: block; margin: auto;"></div>
+</div>
+<div id="compliance-público" class="section level3" number="16.3.2">
+<h3>
+<span class="header-section-number">16.3.2</span> Compliance público<a class="anchor" aria-label="anchor" href="#compliance-p%C3%BAblico"><i class="fas fa-link"></i></a>
+</h3>
+<p>A <a href="http://www.planalto.gov.br/CCIVil_03/_Ato2015-2018/2016/Lei/L13303.htm">Lei nº 13.303/16</a> é conhecida como o Estatuto das Estatais e foi regulamentada pelo <a href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/D8945.htm">Decreto nº 8945/16</a>. Atualmente, não há que se falar mais na falta de previsão legal do compliance público.</p>
+<p><strong>Compliance público x privado</strong></p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Administração pública direta:</strong> União, estados, Distrito Federal e municípios.</p></li>
+<li><p><strong>Administração pública indireta:</strong> autarquias, fundações, sociedades de economia mista e empresas públicas.</p></li>
+</ol>
+<p><strong>Definições importantes</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Definicoes%20importantes.png" width="2552" style="display: block; margin: auto;"></div>
+<p>O art. 2º do Decreto nº 8.945/16 define, de forma clara, alguns atores importantes:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Comp%20Publico%20Art%202.PNG" width="1058" style="display: block; margin: auto;"></div>
+<p>Segundo os conceitos de governança corporativa estabelecidos pelo PSC/IFAC, temos os seguintes princípios de governança corporativa no do setor público:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Principios%20Governanca.PNG" width="1271" style="display: block; margin: auto;"></div>
+<p>Governança no Setor Público diz respeito a um conjunto de mecanismos práticos de controle que envolve temas afetos à liderança, estratégia e informação com o objetivo de executar as quatro etapas:</p>
+<ol style="list-style-type: decimal">
+<li><p>identificar as questões sensíveis</p></li>
+<li><p>tratar os dados (informações) obtidos</p></li>
+<li><p>redimensionar o sistema corrigindo as falhas e implementando os modelos pendente</p></li>
+<li><p>monitoramento periódico</p></li>
+</ol>
+</div>
+<div id="compliance-criminal-acordo-de-leniência-e-compliance-fiscal" class="section level3" number="16.3.3">
+<h3>
+<span class="header-section-number">16.3.3</span> Compliance criminal, acordo de leniência e Compliance fiscal<a class="anchor" aria-label="anchor" href="#compliance-criminal-acordo-de-leni%C3%AAncia-e-compliance-fiscal"><i class="fas fa-link"></i></a>
+</h3>
+<p>O direito penal e processual penal tipificam condutas puníveis e o processo para investigação, respectivamente. Em sendo assim, antes de tudo, precisamos descobrir o que é o iter criminis, ou caminho do crime, para depois aplicar praticamente em casos concretos. A doutrina majoritária coloca o iter criminis com quatro fases:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Iter%20criminis.png" width="1427" style="display: block; margin: auto;"></div>
+<p><strong>Compliance criminal</strong></p>
+<p>O compliance criminal atua na implementação de políticas e métodos capazes de identificar ilícitos penais, mas buscando, principalmente, a prevenção.</p>
+<p>Após muito estudo e discussão, a <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm">Lei nº 12.846/13</a> trouxe a possibilidade do chamado acordo de leniência. De acordo com o art. 16 da norma, somente a autoridade máxima de cada órgão ou entidade pode firmar tal compromisso. O que isso nos ensina? Responsabilidade. Se qualquer funcionário público pudesse firmar tal acordo, seria muito mais provável que os antigos desmandos continuassem sobrevivendo por meio da terrível corrupção. Por outro lado, se o membro de maior hierarquia for escalado, recairá nele, e somente nele, a responsabilidade do acordo. É óbvio que este deve ser embasado legalmente, mas, com a concentração em tal agente, é muito pouco provável que desvios de conduta ou finalidade sejam cometidos.</p>
+<p><strong>Compliance fiscal</strong></p>
+<p>No que se refere ao compliance fiscal, é inegável o pavor que cada cidadão sente ao escutar a palavra “fisco.” Um profissional, no entanto, não pode ter esse tipo de mentalidade. Ao contrário, o operador de compliance deve ser capaz não somente de identificar as situações de risco e mitigá-las mas também de encontrar oportunidades de crescimento.</p>
+<p>Um bom programa de compliance fiscal deve ser capaz de apontar discrepâncias entre o que se paga e o que deveria ser pago, adequando a organização antes que ela sofra sanções administrativas, judiciais e pecuniárias.</p>
+<p><strong>acordo de leniência</strong></p>
+<p>O acordo de leniência é uma espécie de delação premiada para pessoas jurídicas. Ele é bom para as investigações, para os cofres públicos, para a punição dos responsáveis pelos crimes e para os trabalhadores das empresas envolvidas.</p>
+<p><strong>elementos de risco</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Elementos%20de%20risco.PNG" width="1569" style="display: block; margin: auto;"></div>
+</div>
+</div>
+<div id="risk-assessment-e-o-papel-da-auditoria-e-controladoria" class="section level2" number="16.4">
+<h2>
+<span class="header-section-number">16.4</span> Risk assessment e o papel da auditoria e controladoria<a class="anchor" aria-label="anchor" href="#risk-assessment-e-o-papel-da-auditoria-e-controladoria"><i class="fas fa-link"></i></a>
+</h2>
+<p>As normas ISO trazem um fluxograma para o funcionamento de um sistema de gestão de compliance. Vejamos, a seguir, dois modelos. Ao clicar nas imagens, você poderá ampliá-las.</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20ISO%20Fluxograma.png" width="2907" style="display: block; margin: auto;"></div>
+<div id="auditoria-interna-e-controladoria" class="section level3" number="16.4.1">
+<h3>
+<span class="header-section-number">16.4.1</span> Auditoria interna e controladoria<a class="anchor" aria-label="anchor" href="#auditoria-interna-e-controladoria"><i class="fas fa-link"></i></a>
+</h3>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Auditoria%20e%20Controladoria.PNG" width="2323" style="display: block; margin: auto;"></div>
+<p><strong>Pilares do programa de integridade</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Pilares%20da%20Integridade.PNG" width="2782" style="display: block; margin: auto;"></div>
+<p><strong>Gerenciamento de riscos</strong></p>
+<p>Em uma empresa, é de vital importância contar com as áreas de controladoria e auditoria interna. Junto a um programa de integridade, esses departamentos são capazes de alavancar uma organização.</p>
+<p>Uma empresa com todos os seus departamentos estruturados é capaz de superar qualquer tipo de crise. No entanto, se estes não funcionam, podemos afirmar que há, na verdade, uma crise interna, e essa sim é capaz de fazer ruir qualquer tipo de projeto.</p>
+<blockquote>
+<p>Para ser bem-sucedida, uma organização tem de priorizar a análise de riscos e saber gerenciá-los.</p>
+</blockquote>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Gerenciamento%20Riscos.PNG" width="829" style="display: block; margin: auto;"></div>
+</div>
+<div id="conceituação-análise-e-controle-de-riscos" class="section level3" number="16.4.2">
+<h3>
+<span class="header-section-number">16.4.2</span> Conceituação, análise e controle de riscos<a class="anchor" aria-label="anchor" href="#conceitua%C3%A7%C3%A3o-an%C3%A1lise-e-controle-de-riscos"><i class="fas fa-link"></i></a>
+</h3>
+<p><strong>Gestão de riscos</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Gestao%20de%20Riscos.PNG" width="2713" style="display: block; margin: auto;"></div>
+<p><strong>Compliance</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Compliance.PNG" width="2719" style="display: block; margin: auto;"></div>
+<p><strong>Pilares para um programa efetivo para empresas (governança, riscos e compliance – GRC)</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20GRC.PNG" width="2388" style="display: block; margin: auto;"></div>
+<p>O art. 2º da Instrução Normativa Conjunta do MP/CGU nº 1 define alguns conceitos de grande importância para o entendimento dos processos de análise e controle de riscos:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20MPGCU.PNG" width="1054" style="display: block; margin: auto;"></div>
+<p><strong>Due diligence periódico</strong></p>
+<p>Uma vez implementado um programa de compliance, é necessário o constante monitoramento e a auditoria periódica para assegurar que os elementos do programa de complianceestejam funcionando e atendendo aos seus objetivos.</p>
+<p>Para que seja possível esse monitoramento de relatórios, é preciso elaborar também um processo de avaliação.</p>
+<blockquote>
+<p>A manutenção de complianceimplica administradores responsáveis pela compreensão das necessidades atuais da empresa bem como das lacunas existentes no programa de compliance.</p>
+</blockquote>
+</div>
+<div id="missão-e-valores-da-auditoria-interna" class="section level3" number="16.4.3">
+<h3>
+<span class="header-section-number">16.4.3</span> Missão e valores da auditoria interna<a class="anchor" aria-label="anchor" href="#miss%C3%A3o-e-valores-da-auditoria-interna"><i class="fas fa-link"></i></a>
+</h3>
+<p>Uma auditoria interna pode ser intrínseca ou extrínseca. A auditoria interna intrínseca é responsável pela avaliação e pelo assessoramento da administração, estando voltada para o exame e a avaliação da adequação, da eficiência e da eficácia dos sistemas de controle, bem como da qualidade do desempenho das áreas em relação às atribuições e aos planos, às metas, aos objetivos e às políticas para elas definidas.</p>
+<p>Já o controle interno tem como principais características:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Auditoria%20Interna.PNG" width="1037" style="display: block; margin: auto;"></div>
+<p><strong>Controladoria</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Controladoria.PNG" width="1486" style="display: block; margin: auto;"></div>
+<p><strong>Metodologia de implantação de outra satividades executadas</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/16.%20Metodologia.PNG" width="2394" style="display: block; margin: auto;"></div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div id="bibliografia-12" class="section level2" number="16.5">
+<h2>
+<span class="header-section-number">16.5</span> Bibliografia<a class="anchor" aria-label="anchor" href="#bibliografia-12"><i class="fas fa-link"></i></a>
+</h2>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="chapter-nav">
+<div class="prev"><a href="or%C3%A7amento-e-controle.html"><span class="header-section-number">15</span> Orçamento e controle</a></div>
+<div class="empty"></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#compliance-1"><span class="header-section-number">16</span> Compliance</a></li>
+<li>
+<a class="nav-link" href="#origem-e-evolu%C3%A7%C3%A3o"><span class="header-section-number">16.1</span> Origem e evolução</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#hist%C3%B3rico-1"><span class="header-section-number">16.1.1</span> Histórico</a></li>
+<li><a class="nav-link" href="#defini%C3%A7%C3%B5es-1"><span class="header-section-number">16.1.2</span> Definições</a></li>
+<li><a class="nav-link" href="#normas"><span class="header-section-number">16.1.3</span> Normas</a></li>
+<li><a class="nav-link" href="#boa-governan%C3%A7a"><span class="header-section-number">16.1.4</span> Boa governança</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#sistema-de-gest%C3%A3o-de-compliance"><span class="header-section-number">16.2</span> Sistema de gestão de compliance</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#pol%C3%ADtica-cultura-e-pilares-do-compliance"><span class="header-section-number">16.2.1</span> Política, cultura e pilares do Compliance</a></li>
+<li><a class="nav-link" href="#c%C3%B3digo-de-%C3%A9tica-e-os-programas-de-integridade"><span class="header-section-number">16.2.2</span> Código de ética e os programas de integridade</a></li>
+<li><a class="nav-link" href="#fun%C3%A7%C3%B5es-do-compliance-officer-e-comprometimento-da-alta-dire%C3%A7%C3%A3o"><span class="header-section-number">16.2.3</span> Funções do Compliance officer e comprometimento da alta direção</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#normas-anticorrup%C3%A7%C3%A3o-antissuborno-e-compliance-p%C3%BAblico"><span class="header-section-number">16.3</span> Normas anticorrupção, antissuborno e compliance público</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#normas-anticorrup%C3%A7%C3%A3o-e-a-lei-n%C2%BA-12.84613"><span class="header-section-number">16.3.1</span> Normas anticorrupção e a Lei nº 12.846/13</a></li>
+<li><a class="nav-link" href="#compliance-p%C3%BAblico"><span class="header-section-number">16.3.2</span> Compliance público</a></li>
+<li><a class="nav-link" href="#compliance-criminal-acordo-de-leni%C3%AAncia-e-compliance-fiscal"><span class="header-section-number">16.3.3</span> Compliance criminal, acordo de leniência e Compliance fiscal</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#risk-assessment-e-o-papel-da-auditoria-e-controladoria"><span class="header-section-number">16.4</span> Risk assessment e o papel da auditoria e controladoria</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#auditoria-interna-e-controladoria"><span class="header-section-number">16.4.1</span> Auditoria interna e controladoria</a></li>
+<li><a class="nav-link" href="#conceitua%C3%A7%C3%A3o-an%C3%A1lise-e-controle-de-riscos"><span class="header-section-number">16.4.2</span> Conceituação, análise e controle de riscos</a></li>
+<li><a class="nav-link" href="#miss%C3%A3o-e-valores-da-auditoria-interna"><span class="header-section-number">16.4.3</span> Missão e valores da auditoria interna</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#bibliografia-12"><span class="header-section-number">16.5</span> Bibliografia</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/16-Compliance.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/16-Compliance.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>A Minimal Book Example</strong>" was written by John Doe. It was last built on 2022-02-10.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

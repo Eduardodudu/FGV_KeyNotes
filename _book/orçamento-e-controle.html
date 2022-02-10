@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 15 Orçamento e controle | A Minimal Book Example</title>
+<meta name="author" content="John Doe">
+<meta name="description" content="15.1 Orçamentro empresarial  15.1.1 Planejamento empresarial Um planejamento empresarial começa pela análise sistemática dos pontos fortes e fracos da empresa e das oportunidades e ameaças do meio...">
+<meta name="generator" content="bookdown 0.24 with bs4_book()">
+<meta property="og:title" content="Chapter 15 Orçamento e controle | A Minimal Book Example">
+<meta property="og:type" content="book">
+<meta property="og:description" content="15.1 Orçamentro empresarial  15.1.1 Planejamento empresarial Um planejamento empresarial começa pela análise sistemática dos pontos fortes e fracos da empresa e das oportunidades e ameaças do meio...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 15 Orçamento e controle | A Minimal Book Example">
+<meta name="twitter:description" content="15.1 Orçamentro empresarial  15.1.1 Planejamento empresarial Um planejamento empresarial começa pela análise sistemática dos pontos fortes e fracos da empresa e das oportunidades e ameaças do meio...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="libs/kePrint-0.0.1/kePrint.js"></script><link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<link href="libs/tabwid-1.0.0/tabwid.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="bs4_style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">A Minimal Book Example</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"><span class="header-section-number">1</span> About</a></li>
+<li><a class="" href="gestao-estrategica.html"><span class="header-section-number">2</span> Gestão Estratégica</a></li>
+<li><a class="" href="Gestao-de-pessoas.html"><span class="header-section-number">3</span> Gestão de pessoas</a></li>
+<li><a class="" href="gestao-projetos.html"><span class="header-section-number">4</span> Gestão de projetos</a></li>
+<li><a class="" href="gest%C3%A3o-de-conflitos.html"><span class="header-section-number">5</span> Gestão de conflitos</a></li>
+<li><a class="" href="marketing.html"><span class="header-section-number">6</span> Marketing</a></li>
+<li><a class="" href="%C3%A9tica-e-sustentabilidade.html"><span class="header-section-number">7</span> Ética e sustentabilidade</a></li>
+<li><a class="" href="gest%C3%A3o-estrat%C3%A9gica-1.html"><span class="header-section-number">8</span> Gestão estratégica</a></li>
+<li><a class="" href="contabilidade-financeira.html"><span class="header-section-number">9</span> Contabilidade financeira</a></li>
+<li><a class="" href="economia-empresarial.html"><span class="header-section-number">10</span> Economia Empresarial</a></li>
+<li><a class="" href="matem%C3%A1tica-financeira.html"><span class="header-section-number">11</span> Matemática financeira</a></li>
+<li><a class="" href="direito-empresarial.html"><span class="header-section-number">12</span> Direito Empresarial</a></li>
+<li><a class="" href="finan%C3%A7as-corporativas.html"><span class="header-section-number">13</span> Finanças Corporativas</a></li>
+<li><a class="" href="qualidade-e-processos.html"><span class="header-section-number">14</span> Qualidade e processos</a></li>
+<li><a class="active" href="or%C3%A7amento-e-controle.html"><span class="header-section-number">15</span> Orçamento e controle</a></li>
+<li><a class="" href="compliance-1.html"><span class="header-section-number">16</span> Compliance</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="orçamento-e-controle" class="section level1" number="15">
+<h1>
+<span class="header-section-number">15</span> Orçamento e controle<a class="anchor" aria-label="anchor" href="#or%C3%A7amento-e-controle"><i class="fas fa-link"></i></a>
+</h1>
+<div id="orçamentro-empresarial" class="section level2" number="15.1">
+<h2>
+<span class="header-section-number">15.1</span> Orçamentro empresarial<a class="anchor" aria-label="anchor" href="#or%C3%A7amentro-empresarial"><i class="fas fa-link"></i></a>
+</h2>
+<div id="planejamento-empresarial" class="section level3" number="15.1.1">
+<h3>
+<span class="header-section-number">15.1.1</span> Planejamento empresarial<a class="anchor" aria-label="anchor" href="#planejamento-empresarial"><i class="fas fa-link"></i></a>
+</h3>
+<p>Um planejamento empresarial começa pela análise sistemática dos pontos fortes e fracos da empresa e das oportunidades e ameaças do meio ambiente. Essa análise leva a estabelecer objetivos, estratégias e ações que possibilitam um aumento no êxito empresarial.</p>
+<p>O processo de planejamento empresarial é bastante amplo e divide-se em três etapas</p>
+<ol style="list-style-type: decimal">
+<li><strong>Planejamento estratégico</strong></li>
+</ol>
+<p>São criados fundamentos da empresa, como missão, valores, visão, entre outros. Também é nesse nível que são traçados os objetivos estratégicos da organização para curto, médio e longo prazos.</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Planejamento%20Estrategico.PNG" width="1586" style="display: block; margin: auto;"></div>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Planejamento tático</strong></li>
+</ol>
+<p>Desdobramento das estratégias em metas, criando condições para que sejam realizadas, e o alinhamento para que os stakeholders estejam direcionados a um mesmo objetivo.</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Planejamento operacional</strong></li>
+</ol>
+<p>Pessoas que executam as ações e metas traçadas pelo nível tático para atingir os objetivos das decisões estratégicas.</p>
+<p><strong>Planejamento empresarial e orçamento</strong></p>
+<p>O processo do planejamento empresarial e onde o orçamento e o controle orçamentário se inserem está de acordo com a imagem</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Planejamento%20Empresarial.PNG" width="1548" style="display: block; margin: auto;"></div>
+<blockquote>
+<p>A figura representa o relacionamento dos elementos de orçamento e controle e planejamento estratégico somados aos insumos externos e internos da empresa</p>
+</blockquote>
+<p>Sequência dos elementos:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Insumos:</strong> Representa os conjuntos de dados passados, expectativas de interesses externos e internos e o SWOT</p></li>
+<li><p><strong>Visão estratégica:</strong> Considerada de longo prazo, define as estratégias e políticas e suas revisões</p></li>
+<li><p><strong>Orçamento:</strong> O orçamento é o instrumento que implementa as decisões do plano estratégico dentro de um horizonte temporal</p></li>
+<li><p><strong>Metas de curto prazo:</strong> Estabelecidas as políticas e ações dos diversos departamentos</p></li>
+<li><p><strong>Controle orçamentário:</strong> Forma de monitorar o plano estratégico da organização dentro do período correspondente ao orçamento. Essa etapa se destina à correção de desvios e retroalimenta o processo de planejamento</p></li>
+</ol>
+<p><strong>Instrumentos</strong></p>
+<p>Os instrumentos necessários para um planejamento empresarial são</p>
+<ol style="list-style-type: decimal">
+<li><strong>Planejamento estratégico</strong></li>
+</ol>
+<p>No planejamento estratégico, são criados os fundamentos da empresa, como missão, valores e visão. Também é neste nível que são traçados os objetivos estratégicos da organização no curto, médio e longo prazos.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Orçamento Anual</strong></li>
+</ol>
+<p>No orçamento, há a quantificação e o desdobramento das estratégias e das metas, criando condições para que elas sejam realizadas, e há o alinhamento para que pessoas, processos e recursos estejam direcionados a um mesmo objetivo.</p>
+<p>Vários métodos de orçamento diferentes podem ser implementados. Para escolher um, é preciso levar em conta aspectos como ramo de atividade, finalidade, modelo de gestão e cultura organizacional.</p>
+<p>A estrutura do orçamento está dividida em orçamento da receita, dos gastos, dos investimentos e projetos, do fluxo de caixa, da demonstração do resultado e do balanço patrimonial projetados.</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Controle orçamentário</strong></li>
+</ol>
+<p>O controle é uma ferramenta preparada a partir de cenários.</p>
+<p><strong>Decisões</strong></p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Estratégicas:</strong> Decisões relacionadas com a escolha do mix de produtos e dos mercados em que produtos/serviços serão colocados</p></li>
+<li><p><strong>Administrativas:</strong> Estruturação dos recursosda empresa de modo a obter melhores resultados</p></li>
+<li><p><strong>Operacionais:</strong> São as políticas da empresa e obtenção dos indicadores desejados</p></li>
+</ol>
+<p><strong>Vantagens e desvantagens</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Planej%20Empr%20Vantag%20e%20Desv.png" width="1670" style="display: block; margin: auto;"></div>
+</div>
+<div id="orçamento-1" class="section level3" number="15.1.2">
+<h3>
+<span class="header-section-number">15.1.2</span> Orçamento<a class="anchor" aria-label="anchor" href="#or%C3%A7amento-1"><i class="fas fa-link"></i></a>
+</h3>
+<p>Orçamento é:</p>
+<ul>
+<li>A expressão quantitativa formal de um plano estratégico</li>
+<li>Resumo dos objetivos de todos os centros de responsabilidade</li>
+<li>Manifesto, formal, do planejamento das atividades da empresa como um todo</li>
+</ul>
+<blockquote>
+<p>O orçamento não deve ser entendido como o exercício de utilizar dados passados para projetar o futuro, pois, dessa forma, passaria-se a ter apenas uma visão incremental e inflacionária. O orçamento é a técnica de alocação eficiente dos recursos e representa um poderoso instrumento para os gestores no processo decisório.</p>
+</blockquote>
+<p><strong>Decisões básicas</strong></p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Decisão de financiamento:</strong> Como a empresa captará recursos</p></li>
+<li><p><strong>Decisão de investimento:</strong> Como será feito a aplicação dos recursos</p></li>
+<li><p><strong>Decisão operacional:</strong> Como será o uso dos recurso</p></li>
+</ol>
+<p><strong>Vantagens e desvantagens</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Orcamento%20Vantagens%20x%20Desvantagens.png" width="2314" style="display: block; margin: auto;"></div>
+</div>
+<div id="métodos-de-orçamento" class="section level3" number="15.1.3">
+<h3>
+<span class="header-section-number">15.1.3</span> Métodos de orçamento<a class="anchor" aria-label="anchor" href="#m%C3%A9todos-de-or%C3%A7amento"><i class="fas fa-link"></i></a>
+</h3>
+<p>Os métodos mais tradicionais foram apresentados por Lunks (2010) em uma escala evolutiva, iniciando com o orçamento empresarial, que surgiu em 1919, e seguindo até o orçamento perpétuo, que surgiu a partir do ano 2000.</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Historico%20Metodos%20Orcamento.PNG" width="1559" style="display: block; margin: auto;"></div>
+<p>A organização pode estabelecer o orçamento considerando as seguintes funções:</p>
+<ol style="list-style-type: lower-alpha">
+<li><p><strong>Unidade de medida:</strong> orçamento operacional, orçamento de projetos e orçamento financeiro</p></li>
+<li><p><strong>Método de classificação das transações:</strong> orçamento por recursos, atividade,
+departamentos ou centros de custo</p></li>
+<li><p><strong>Comportamento dos custos:</strong> Orçamento fixo, flexível</p></li>
+<li><p><strong>Análises previstas:</strong> Orçamento empresarial, flexível, por atividades</p></li>
+<li><p><strong>Forma de elaboração:</strong> Orçamento base zero, contínuo, tradicional</p></li>
+</ol>
+<p><strong>Estrutura básica do orçamento</strong></p>
+<p>O orçamento é composto de algumas peças:</p>
+<ul>
+<li><p><strong>Orçamento das receitas</strong></p></li>
+<li><p><strong>Orçamento dos gastos</strong></p></li>
+<li><p><strong>Orçamento dos finaciamentos e investimentos (Projetos)</strong></p></li>
+<li><p><strong>Orçamento de caixa</strong></p></li>
+<li><p><strong>Orçamento da demonstração de resultado projetada</strong></p></li>
+<li><p><strong>Orçamento patrimonial projetado</strong></p></li>
+</ul>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Estrutura%20Orcamento.PNG" width="1523" style="display: block; margin: auto;"></div>
+</div>
+</div>
+<div id="planejamento-orçamentário" class="section level2" number="15.2">
+<h2>
+<span class="header-section-number">15.2</span> Planejamento orçamentário<a class="anchor" aria-label="anchor" href="#planejamento-or%C3%A7ament%C3%A1rio"><i class="fas fa-link"></i></a>
+</h2>
+<p>Os procedimentos para a elaboração e implementação do orçamento podem ser divididos em três etapas:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Ambiente pré-orçamentário (Planejamento)</strong></li>
+</ol>
+<p>Estudo dos cenários, definição das metas e dos objetivos de cada centro de responsabilidade</p>
+<blockquote>
+<p>Diretorias e controller</p>
+</blockquote>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Elaboração orçamentária (Planejamento)</strong></li>
+</ol>
+<p>Quantificaçãodos valores (receitas, custos e despesas) de cada centro de responsabilidade</p>
+<blockquote>
+<p>Cada departamento e controller</p>
+</blockquote>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Acompanhamento orçamentário (Execução)</strong></li>
+</ol>
+<p>Relatórios de desempenho</p>
+<blockquote>
+<p>Cada departamento e controller</p>
+</blockquote>
+<p>O plano orçamentário compreende o conjunto de medidas e a estrutura para a sua eficiente implantação e execução e deve definir:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Plano%20Orcamentario.png" width="1369" style="display: block; margin: auto;"></div>
+<div id="envolvidos-no-processo-orçamentário" class="section level3" number="15.2.1">
+<h3>
+<span class="header-section-number">15.2.1</span> Envolvidos no processo orçamentário<a class="anchor" aria-label="anchor" href="#envolvidos-no-processo-or%C3%A7ament%C3%A1rio"><i class="fas fa-link"></i></a>
+</h3>
+<p>Para ser elaborado e executado, o orçamento necessita de profissionaisque sejam responsáveis por sua aplicação. É óbvio que a criação de uma equipe ou departamento orçamentário depende muito do tamanho da empresa.</p>
+<p>Para tanto, defende-se que a responsabilidade pela condução do processo orçamentário deve ser da <strong>controladoria</strong> que possui segundo Padoveze, as áreas de responsabilidade:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Controladoria.PNG" width="1002" style="display: block; margin: auto;"></div>
+</div>
+<div id="sistemas-de-elaboração-e-controle" class="section level3" number="15.2.2">
+<h3>
+<span class="header-section-number">15.2.2</span> Sistemas de elaboração e controle<a class="anchor" aria-label="anchor" href="#sistemas-de-elabora%C3%A7%C3%A3o-e-controle"><i class="fas fa-link"></i></a>
+</h3>
+<p>Atualmente, os sistemas de informação representam um dos ativos mais valiosos das empresas. Existem dois sistemas que devem atuar em consonância e integrados:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Sistema de elaboração orçamentária</strong></li>
+</ol>
+<p>Leva em consideração as premissas preestabelecidas pela empresa com base no planejamento estratégico, é alimentado com os dados do período orçamentário, projeta resultados em diversos cenários e permite que se avaliem, no futuro, as prováveis consequências de decisões tomadas no presente.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Sistema de controle e acompanhamento da execução do orçamento</strong></li>
+</ol>
+<p>Dividido em três etapas</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Estabelecimento de base de incentivos: Devem ser estabelecidas metas financeiras enão financeiras</p></li>
+<li><p>Monitoramento e controle orçamentário: visando àintegração dos diferentes setores</p></li>
+<li><p>Aprendizagem e feedback: Foco em atender à versatilidade e flexibilidade do processo orçamentário</p></li>
+</ol>
+</div>
+<div id="exemplo-prático" class="section level3" number="15.2.3">
+<h3>
+<span class="header-section-number">15.2.3</span> Exemplo prático<a class="anchor" aria-label="anchor" href="#exemplo-pr%C3%A1tico"><i class="fas fa-link"></i></a>
+</h3>
+<p><strong>Orçamento do comércio</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Mobiliaria%20Pontes.png" width="2901" style="display: block; margin: auto;"></div>
+<p>Organização dos orçamentos</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Resolucao%20Fluxos.PNG" width="1037" style="display: block; margin: auto;"></div>
+<p><strong>Resolução</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Resolucao%20l.png" width="3752" style="display: block; margin: auto;"></div>
+<p>Resultado final</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Resolucao%20ll.png" width="3064" style="display: block; margin: auto;"></div>
+</div>
+</div>
+<div id="orçamento-da-receita" class="section level2" number="15.3">
+<h2>
+<span class="header-section-number">15.3</span> Orçamento da receita<a class="anchor" aria-label="anchor" href="#or%C3%A7amento-da-receita"><i class="fas fa-link"></i></a>
+</h2>
+<p>O orçamento da receita é considerado o mais importante e crítico, pois todos os outros orçamentos dependem dele. Por ser sujeito às incertezas, não deve ser percebido como um exercício de adivinhação. A projeção da receita pode ser realizada por meio dos seguintes métodos:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Estatístico</strong></li>
+</ol>
+<p>O método estatístico é adequado para empresas que vendem para um número considerável de clientes. Isso faz com que a decisão isolada de um cliente não afete o resultado geral da empresa</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Discricionário</strong></li>
+</ol>
+<p>O método discricionário se baseia no julgamento das pessoas. Como não é um modelo matemático, acaba sendo mais subjetivo e depende da experiência das pessoas envolvidas no processo de geração da receita. É indicado para empresas que vendem para um número reduzido de clientes. A decisão isolada de um cliente de deixar de comprar da empresa afeta o resultado.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p><strong>Método de coleta de dados das fontes de origem das vendas:</strong> Coleta por meio de entrevistas</p></li>
+<li><p><strong>Método de uso final do produto:</strong> Busca maior integração com os clientes para saber como serão as suas vendas</p></li>
+</ol>
+<div id="processo-orçamentário-da-indústra" class="section level3" number="15.3.1">
+<h3>
+<span class="header-section-number">15.3.1</span> Processo Orçamentário da indústra<a class="anchor" aria-label="anchor" href="#processo-or%C3%A7ament%C3%A1rio-da-ind%C3%BAstra"><i class="fas fa-link"></i></a>
+</h3>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Processo%20Orcamento%20Industria.png" width="1553" style="display: block; margin: auto;"></div>
+<ol style="list-style-type: decimal">
+<li><strong>Desdobramento orçamento operacional</strong></li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Orcamento%20operacional%20l.png" width="1972" style="display: block; margin: auto;"></div>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Orcamento%20operacional%20ll.png" width="2398" style="display: block; margin: auto;"></div>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Orcamento%20operacional%20lll.png" width="3059" style="display: block; margin: auto;"></div>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Desdobramento orçamento financeiro</strong></li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Orcamento%20Financeiro.png" width="2940" style="display: block; margin: auto;"></div>
+</div>
+<div id="exemplo-prático-1" class="section level3" number="15.3.2">
+<h3>
+<span class="header-section-number">15.3.2</span> Exemplo prático<a class="anchor" aria-label="anchor" href="#exemplo-pr%C3%A1tico-1"><i class="fas fa-link"></i></a>
+</h3>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Exemplo%20Orcamento%20Receita.png" width="4132" style="display: block; margin: auto;"></div>
+<ul>
+<li><strong>Dicas</strong></li>
+</ul>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Dicas%20Exemplo%202.png" width="2961" style="display: block; margin: auto;"></div>
+<p><strong>Resolução</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Resolucao%20Exercicio%20ll.png" width="2592" style="display: block; margin: auto;"></div>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Resolucao%20Exercicio%20ll_2.png" width="2696" style="display: block; margin: auto;"></div>
+</div>
+</div>
+<div id="orçamento-dos-gastos" class="section level2" number="15.4">
+<h2>
+<span class="header-section-number">15.4</span> Orçamento dos gastos<a class="anchor" aria-label="anchor" href="#or%C3%A7amento-dos-gastos"><i class="fas fa-link"></i></a>
+</h2>
+<p>Um bom orçamento deve assegurar a sobrevivência da empresa no pior cenário e ser capaz de aproveitar as oportunidades geradas pelos melhores cenários.</p>
+<div id="métodos-de-custeio" class="section level3" number="15.4.1">
+<h3>
+<span class="header-section-number">15.4.1</span> Métodos de custeio<a class="anchor" aria-label="anchor" href="#m%C3%A9todos-de-custeio"><i class="fas fa-link"></i></a>
+</h3>
+<p>A alocação dos gastos no orçamento para efeito de apuração do resultado pode ser feita por dois métodos:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Custeio por absorção ou custeio pleno:</strong></li>
+</ol>
+<p>Consiste na apropriação de todos os custos de produção aos produtos elaborados de forma direta ou indireta, fixa ou variável.Utilizado para precificação e apuração do resultado contábil.</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Custeio%20Absorcao.PNG" width="1292" style="display: block; margin: auto;"></div>
+<blockquote>
+<p>Exigido pela legislação do IR.</p>
+</blockquote>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Custeio direto ou variável</strong></li>
+</ol>
+<p>Somente são alocados nos produtos os custos variáveis. Nesse caso, os custos fixos ficam separados e são considerados como despesas do período.</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Custeio%20Direto.PNG" width="1306" style="display: block; margin: auto;"></div>
+<blockquote>
+<p>Gerencial: tomada de decisão.</p>
+</blockquote>
+</div>
+<div id="orçamento-dos-gastos-variáveis" class="section level3" number="15.4.2">
+<h3>
+<span class="header-section-number">15.4.2</span> Orçamento dos gastos variáveis<a class="anchor" aria-label="anchor" href="#or%C3%A7amento-dos-gastos-vari%C3%A1veis"><i class="fas fa-link"></i></a>
+</h3>
+<p>Os gastos variáveis são aqueles que variam conforme o <strong>nível de atividade</strong>, seja ligado à produção (custos variáveis), seja ligado à administração (despesas variáveis). Eles podem ser divididos em dois grupos:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Gastos variáveis em função da receita:</strong> Comissão, taxa de cartão de crédito, royalties,impostos (ICMS, ISS).</p></li>
+<li><p><strong>Gastos variáveis por unidade:</strong> Mercadoria para revenda, materiais diretos aplicados aos produtos.</p></li>
+</ol>
+</div>
+<div id="orçamento-dos-gastos-dos-centros-de-custos" class="section level3" number="15.4.3">
+<h3>
+<span class="header-section-number">15.4.3</span> Orçamento dos gastos dos centros de custos<a class="anchor" aria-label="anchor" href="#or%C3%A7amento-dos-gastos-dos-centros-de-custos"><i class="fas fa-link"></i></a>
+</h3>
+<p>Após a projeção dos gastos variáveis ligados diretamente ao produto ou serviço, a empresa deve fazer o levantamento dos gastos fixos relacionados aos centros de responsabilidade (departamentos). Esse levantamento deve ser feito caso sejam ligados à produção (custos) ou à administração (despesas).</p>
+<p><strong>Centro de responsabilidade:</strong> Divisão, setor ou departamento chefiado por um gestor que é responsável pelos seus gastos e pelas suas atividades. Podem ser do tipo:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Centros%20de%20custo0.png" width="3598" style="display: block; margin: auto;"></div>
+<p>Os gastos fixos são aqueles que serão fixos até determinado nível de capacidade, podendo ser:</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Gastos fixos comprometidos:</strong> Ligados à estrutura da empresa.</li>
+</ol>
+<p>Ex: aluguel dos imóveis, depreciação e amortização do imóvel, etc</p>
+<blockquote>
+<p>Responsabilidade da Direção. Os departamentos apenas usufruem dessas instalações.</p>
+</blockquote>
+<ol start="2" style="list-style-type: decimal">
+<li>
+<strong>Gastos fixos padrão:</strong> São aqueles que possuem correlação com o resultado obtido.</li>
+</ol>
+<p>Ex: mão de obra operacional, aluguel de máquina, etc</p>
+<blockquote>
+<p>Comportamento: não é proporcional à quantidade, mas possui um padrão de eficiência que pode ser controlado.</p>
+</blockquote>
+<ol start="3" style="list-style-type: decimal">
+<li>
+<strong>Gastos fixos discricionários:</strong> São aqueles que não possuem uma correlação com os resultados. Normalmente, são referentes aos departamentos administrativos.</li>
+</ol>
+<p>Ex: Despesa com publicidade, treinamento, consultoria, etc</p>
+<blockquote>
+<p>Como não é possível medir a eficiência desses gastos, é importante que o gestor saiba se os objetivos desejados foram alcançados.</p>
+</blockquote>
+<p><strong>Exemplo Desdobramento custos Centro de custo</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Centros%20de%20custo.PNG" width="962" style="display: block; margin: auto;"></div>
+<p><strong>Custo da ociosidade</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Ociosidade.PNG" width="2607" style="display: block; margin: auto;"></div>
+</div>
+</div>
+<div id="orçamento-dos-investimentos-e-caixa" class="section level2" number="15.5">
+<h2>
+<span class="header-section-number">15.5</span> Orçamento dos investimentos e caixa<a class="anchor" aria-label="anchor" href="#or%C3%A7amento-dos-investimentos-e-caixa"><i class="fas fa-link"></i></a>
+</h2>
+<p>Todos os gastos com projetos são precedidos pelo planejamento e orçamento para compor o fluxo de caixa da empresa, determinando a necessidade de pagamento dos gastos, investimentos e empréstimos. Esses projetos são preparados pelo Project Management Office (PMO) da empresa.</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Investimento%20e%20Caixa.png" width="2396" style="display: block; margin: auto;"></div>
+</div>
+<div id="controle-orçamentário" class="section level2" number="15.6">
+<h2>
+<span class="header-section-number">15.6</span> Controle orçamentário<a class="anchor" aria-label="anchor" href="#controle-or%C3%A7ament%C3%A1rio"><i class="fas fa-link"></i></a>
+</h2>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Controle%20Orcamentario.PNG" width="2715" style="display: block; margin: auto;"></div>
+<p>O controle orçamentário é feito por meio de comparações entre o orçado e o realizado.Podemos utilizar:</p>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Orçamento estático (Fixo):</strong> Compara o orçado geral com o realizado</li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Orcamento%20Fixo.PNG" width="2467" style="display: block; margin: auto;"></div>
+<ol start="2" style="list-style-type: decimal">
+<li>
+<strong>Orçamento flexível:</strong> Compara o orçado ao nível da atividade com o realizado. Permite avaliar a <strong>ineficiência operacional ou comercial</strong> no resultado da operação da empresa</li>
+</ol>
+<div class="inline-figure">
+<img src="01.%20Data/01.%20Images/15.%20Orcamento%20Flexivel.png" width="2888" style="display: block; margin: auto;">
+#### Exemplo prático l</div>
+<p>A Viação Estrela Ltda. detém o monopólio do transporte de passageiros no interior de Minas Gerais. Na empresa, os orçamentos de despesas são realizados em função da receita. No final do mês de setembro, foi apresentado ao Sr. Carlos Lima, gerente operacional, o seguinte relatório de desempenho:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Exemplo%20Orcamento%20Flexivel%20l.PNG" width="937" style="display: block; margin: auto;"></div>
+<p>Para facilitar a análise dos acionistas, você deve:</p>
+<ol style="list-style-type: decimal">
+<li><p>calcular o orçamento, considerando que o faturamento tenha volume de venda iguala RS 600.000,00, Rs 800.000,00 e Rs 1.000.000,00</p></li>
+<li><p>Preparar um orçamento para um faturamento de RS 920.000,00</p></li>
+<li><p>Analisar o seguinte resultado: O lucro previsto para o mês de setembro foi de RS 40.000,00, mas o resultado real foi um prejuízo de RS 18.000,00. Faça um relatório justificando esse diferencial de lucros de RS 58.000,00 (lucro previsto = RS 40.000,00 + prejuízo = R$ 18.000,00).</p></li>
+</ol>
+<p><strong>Valor orçado para fórmula orçamentária</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Exemplo%20Orcamento%20Flexivel%20ll.PNG" width="2438" style="display: block; margin: auto;"></div>
+<p><strong>Resultado</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Exemplo%20Orcamento%20Flexivel%20lll.PNG" width="3932" style="display: block; margin: auto;"></div>
+<div id="controle-pelo-centro-de-custo-padrão" class="section level3" number="15.6.1">
+<h3>
+<span class="header-section-number">15.6.1</span> Controle pelo centro de custo padrão<a class="anchor" aria-label="anchor" href="#controle-pelo-centro-de-custo-padr%C3%A3o"><i class="fas fa-link"></i></a>
+</h3>
+<p>Utilizado para identificar os desvios de eficiência entre os compostos operacionais dos custos de mão de obra direta e materiais direitos, é importante relembrar que o método de orçamento e controle identifica os <strong>problemas</strong> mas <strong>não as causas</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Controle%20CC%20Padrao.png" width="3320" style="display: block; margin: auto;"></div>
+<div id="exemplo-prático-ll" class="section level4" number="15.6.1.1">
+<h4>
+<span class="header-section-number">15.6.1.1</span> Exemplo prático ll<a class="anchor" aria-label="anchor" href="#exemplo-pr%C3%A1tico-ll"><i class="fas fa-link"></i></a>
+</h4>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Exemplo%20CC%20Padrao%20l.PNG" width="2698" style="display: block; margin: auto;"></div>
+<ol style="list-style-type: decimal">
+<li><p>calcular o custo unitário padrão e real de cada caçamba de lixo e do conjunto de 600 produzidas</p></li>
+<li><p>Calcular as variações de preço e eficiência dos materiais diretos e explicar se são favoráveis ou desfavoráveis.</p></li>
+<li><p>calcular as variações de preço e eficiência da mão de obra direta e explicar se são favoráveis ou desfavoráveis</p></li>
+<li><p>Analisar os resultados apresentados e fazer um relatório justificando (explicando), com detalhes, a variação ocorrida entre o custo padrão e o custo real.</p></li>
+</ol>
+<p><strong>Resolução</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20Exemplo%20CC%20Padrao%20ll.png" width="2502" style="display: block; margin: auto;"></div>
+</div>
+</div>
+<div id="gerenciamento-matricial-de-despesas-gmd" class="section level3" number="15.6.2">
+<h3>
+<span class="header-section-number">15.6.2</span> Gerenciamento matricial de despesas (GMD)<a class="anchor" aria-label="anchor" href="#gerenciamento-matricial-de-despesas-gmd"><i class="fas fa-link"></i></a>
+</h3>
+<p>O gerenciamento matricial de despesas é um instrumento gerencial usado para o planejamento financeiro e para o controle orçamentário da empresa. Ele identifica as oportunidades de redução de gastos fixos nos curto e médio prazos, examinando-os de maneira complexa e detalhada.</p>
+<p>A sua implantação é fundamentada nos seguintes princípios básicos:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Controle cruzado:</strong> Todas as despesas orçadas são acompanhadas, simultaneamente, pelo gestor da área e pelo gestor do pacote de despesas.</p></li>
+<li><p><strong>Acompanhamento sistemático:</strong> Os dois gestores sempre comparam os gastos com as metas projetadas e escolhem ações corretivas para os desvios.</p></li>
+<li><p><strong>Desdobramento dos gastos:</strong> Para a definição das metas, todos os gastosdevem ser detalhados até o nível de contas contábeis e centros decustos.</p></li>
+</ol>
+<p>Os gastos fixos dos diversos departamentos devem ser controlados. O objetivo primordial é envolver o núcleo gerencial da organização na redução de gastos de forma justa, compartilhada e criteriosa, visando atingir as metas da organização.</p>
+<p>No GMD, os pacotes de gastos são grupos de despesas de uma mesma natureza e comuns a vários centros de custo.</p>
+<p>Exemplos de pacotes de despesas dos departamentos: Gastos com viagens, despesas administrativas dos departamentos e despesas de manutenção.</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20GMD0.PNG" width="2659" style="display: block; margin: auto;"></div>
+<p><strong>Estrutura do gerenciamento matricial de despesas</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/15.%20GMD.PNG" width="1989" style="display: block; margin: auto;"></div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div id="bibliografia-11" class="section level2" number="15.7">
+<h2>
+<span class="header-section-number">15.7</span> Bibliografia<a class="anchor" aria-label="anchor" href="#bibliografia-11"><i class="fas fa-link"></i></a>
+</h2>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="qualidade-e-processos.html"><span class="header-section-number">14</span> Qualidade e processos</a></div>
+<div class="next"><a href="compliance-1.html"><span class="header-section-number">16</span> Compliance</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#or%C3%A7amento-e-controle"><span class="header-section-number">15</span> Orçamento e controle</a></li>
+<li>
+<a class="nav-link" href="#or%C3%A7amentro-empresarial"><span class="header-section-number">15.1</span> Orçamentro empresarial</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#planejamento-empresarial"><span class="header-section-number">15.1.1</span> Planejamento empresarial</a></li>
+<li><a class="nav-link" href="#or%C3%A7amento-1"><span class="header-section-number">15.1.2</span> Orçamento</a></li>
+<li><a class="nav-link" href="#m%C3%A9todos-de-or%C3%A7amento"><span class="header-section-number">15.1.3</span> Métodos de orçamento</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#planejamento-or%C3%A7ament%C3%A1rio"><span class="header-section-number">15.2</span> Planejamento orçamentário</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#envolvidos-no-processo-or%C3%A7ament%C3%A1rio"><span class="header-section-number">15.2.1</span> Envolvidos no processo orçamentário</a></li>
+<li><a class="nav-link" href="#sistemas-de-elabora%C3%A7%C3%A3o-e-controle"><span class="header-section-number">15.2.2</span> Sistemas de elaboração e controle</a></li>
+<li><a class="nav-link" href="#exemplo-pr%C3%A1tico"><span class="header-section-number">15.2.3</span> Exemplo prático</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#or%C3%A7amento-da-receita"><span class="header-section-number">15.3</span> Orçamento da receita</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#processo-or%C3%A7ament%C3%A1rio-da-ind%C3%BAstra"><span class="header-section-number">15.3.1</span> Processo Orçamentário da indústra</a></li>
+<li><a class="nav-link" href="#exemplo-pr%C3%A1tico-1"><span class="header-section-number">15.3.2</span> Exemplo prático</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#or%C3%A7amento-dos-gastos"><span class="header-section-number">15.4</span> Orçamento dos gastos</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#m%C3%A9todos-de-custeio"><span class="header-section-number">15.4.1</span> Métodos de custeio</a></li>
+<li><a class="nav-link" href="#or%C3%A7amento-dos-gastos-vari%C3%A1veis"><span class="header-section-number">15.4.2</span> Orçamento dos gastos variáveis</a></li>
+<li><a class="nav-link" href="#or%C3%A7amento-dos-gastos-dos-centros-de-custos"><span class="header-section-number">15.4.3</span> Orçamento dos gastos dos centros de custos</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#or%C3%A7amento-dos-investimentos-e-caixa"><span class="header-section-number">15.5</span> Orçamento dos investimentos e caixa</a></li>
+<li>
+<a class="nav-link" href="#controle-or%C3%A7ament%C3%A1rio"><span class="header-section-number">15.6</span> Controle orçamentário</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#controle-pelo-centro-de-custo-padr%C3%A3o"><span class="header-section-number">15.6.1</span> Controle pelo centro de custo padrão</a></li>
+<li><a class="nav-link" href="#gerenciamento-matricial-de-despesas-gmd"><span class="header-section-number">15.6.2</span> Gerenciamento matricial de despesas (GMD)</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#bibliografia-11"><span class="header-section-number">15.7</span> Bibliografia</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/15-Orcamento-Controle.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/15-Orcamento-Controle.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>A Minimal Book Example</strong>" was written by John Doe. It was last built on 2022-02-10.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

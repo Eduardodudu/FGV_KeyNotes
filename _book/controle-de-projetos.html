@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 22 Controle de projetos | A Minimal Book Example</title>
+<meta name="author" content="John Doe">
+<meta name="description" content="22.1 Riscos em projetos O risco do projeto é um evento ou condição incerta que, se ocorrer, terá um efeito positivo ou negativo sobre pelomenos um de seus objetivos, como tempo, custo, escopo ou...">
+<meta name="generator" content="bookdown 0.24 with bs4_book()">
+<meta property="og:title" content="Chapter 22 Controle de projetos | A Minimal Book Example">
+<meta property="og:type" content="book">
+<meta property="og:description" content="22.1 Riscos em projetos O risco do projeto é um evento ou condição incerta que, se ocorrer, terá um efeito positivo ou negativo sobre pelomenos um de seus objetivos, como tempo, custo, escopo ou...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 22 Controle de projetos | A Minimal Book Example">
+<meta name="twitter:description" content="22.1 Riscos em projetos O risco do projeto é um evento ou condição incerta que, se ocorrer, terá um efeito positivo ou negativo sobre pelomenos um de seus objetivos, como tempo, custo, escopo ou...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="bs4_style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">A Minimal Book Example</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"><span class="header-section-number">1</span> About</a></li>
+<li><a class="" href="gestao-estrategica.html"><span class="header-section-number">2</span> Gestão Estratégica</a></li>
+<li><a class="" href="evolu%C3%A7%C3%A3o-do-pensamento-estrat%C3%A9gico.html"><span class="header-section-number">3</span> Evolução do pensamento estratégico</a></li>
+<li><a class="" href="administra%C3%A7%C3%A3o-estrat%C3%A9gica-e-alinhamento.html"><span class="header-section-number">4</span> Administração estratégica e alinhamento</a></li>
+<li><a class="" href="refer%C3%AAnciais-estrat%C3%A9gicos.html"><span class="header-section-number">5</span> Referênciais estratégicos</a></li>
+<li><a class="" href="an%C3%A1lise-do-ambiente-externo.html"><span class="header-section-number">6</span> Análise do ambiente externo</a></li>
+<li><a class="" href="an%C3%A1lise-do-ambiente-interno.html"><span class="header-section-number">7</span> Análise do ambiente interno</a></li>
+<li><a class="" href="formula%C3%A7%C3%A3o-da-estrategia-competitiva.html"><span class="header-section-number">8</span> Formulação da estrategia competitiva</a></li>
+<li><a class="" href="objetivos-estrat%C3%A9gicos.html"><span class="header-section-number">9</span> Objetivos estratégicos</a></li>
+<li><a class="" href="balanced-scorecard.html"><span class="header-section-number">10</span> Balanced Scorecard</a></li>
+<li><a class="" href="bibliografia.html"><span class="header-section-number">11</span> Bibliografia</a></li>
+<li><a class="" href="Gestao-de-pessoas.html"><span class="header-section-number">12</span> Gestão de pessoas</a></li>
+<li><a class="" href="condicionantes-externos-e-mudan%C3%A7as-organizacionais.html"><span class="header-section-number">13</span> Condicionantes externos e mudanças organizacionais</a></li>
+<li><a class="" href="tend%C3%AAncias-da-gest%C3%A3o-org-contempor%C3%A2nea.html"><span class="header-section-number">14</span> Tendências da gestão org contemporânea</a></li>
+<li><a class="" href="alinhamento-dos-interesses-corporativos-e-individuais.html"><span class="header-section-number">15</span> Alinhamento dos interesses corporativos e individuais</a></li>
+<li><a class="" href="lideran%C3%A7a-tend%C3%AAncias-e-desafios.html"><span class="header-section-number">16</span> Liderança: Tendências e desafios</a></li>
+<li><a class="" href="bibliografia-1.html"><span class="header-section-number">17</span> Bibliografia</a></li>
+<li><a class="" href="gestao-projetos.html"><span class="header-section-number">18</span> Gestão de projetos</a></li>
+<li><a class="" href="conceitos-e-caracter%C3%ADsticas-dos-projetos.html"><span class="header-section-number">19</span> Conceitos e características dos projetos</a></li>
+<li><a class="" href="estrutura-do-gerenciamento-de-projetos-1.html"><span class="header-section-number">20</span> Estrutura do gerenciamento de projetos</a></li>
+<li><a class="" href="acompanhando-a-gest%C3%A3o-do-projeto.html"><span class="header-section-number">21</span> Acompanhando a gestão do projeto</a></li>
+<li><a class="active" href="controle-de-projetos.html"><span class="header-section-number">22</span> Controle de projetos</a></li>
+<li><a class="" href="pr%C3%A1ticas-de-projetos-e-outros-padr%C3%B5es.html"><span class="header-section-number">23</span> Práticas de projetos e outros padrões</a></li>
+<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">24</span> Footnotes and citations</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="controle-de-projetos" class="section level1" number="22">
+<h1>
+<span class="header-section-number">22</span> Controle de projetos<a class="anchor" aria-label="anchor" href="#controle-de-projetos"><i class="fas fa-link"></i></a>
+</h1>
+<div id="riscos-em-projetos" class="section level2" number="22.1">
+<h2>
+<span class="header-section-number">22.1</span> Riscos em projetos<a class="anchor" aria-label="anchor" href="#riscos-em-projetos"><i class="fas fa-link"></i></a>
+</h2>
+<p>O risco do projeto é um evento ou condição incerta que, se ocorrer, terá um efeito positivo ou negativo sobre pelomenos um de seus objetivos, como tempo, custo, escopo ou qualidade. Como tal, o risco é sempre sobre o futuro,sobre algo que pode ou não acontecer</p>
+<ul>
+<li>Riscos conhecidos: São identificados ao longo de todo o projeto, que podem:
+<ul>
+<li>Ser antecipados</li>
+<li>Avaliados com relação à probabilidade e ao impacto</li>
+<li>Ter contramedidas</li>
+</ul>
+</li>
+<li>Riscos desconhecidos (Incertezas): Não são mapeados por falta de conhecimento e é importante:
+<ul>
+<li>Reservas contingências (esforço e custo)</li>
+</ul>
+</li>
+</ul>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Gestao%20Riscos.PNG" width="922" style="display: block; margin: auto;"></div>
+<p>Os processos de gestão de riscos do projeto incluem, segundo o PMBOK®(PMI, 2013):</p>
+<ul>
+<li><p>Gestão de riscos: Decisão de como abordar, planejar e executar as atividades de gestão de riscos de um projeto</p></li>
+<li><p>Identificação de riscos: Determinação dos riscos que podem afetar o projeto e documentação de suas características</p></li>
+<li><p>Análise qualitativa de riscos: Priorização dos riscos para análise ou ação adicional subsequente, por meio de avaliação e combinação de sua probabilidade de ocorrência e impacto</p></li>
+<li><p>Análise quantitativa de riscos: Análise numérica do efeito dos riscos identificados nos objetivos gerais do projeto</p></li>
+<li><p>Planejamento de respostas a riscos: Desenvolvimento de opções e ações para aumentar as oportunidades e reduzir as ameaças aos objetivos do projeto</p></li>
+<li><p>Monitoramento e controle de riscos: acompanhamento dos riscos identificados, monitoramento dos riscosresiduais, identificação dos novos riscos, execução de planos de respostas a riscos e avaliação da suaeficácia durante todo o ciclo de vida do projeto.</p></li>
+</ul>
+<div id="identificação-de-riscos" class="section level3" number="22.1.1">
+<h3>
+<span class="header-section-number">22.1.1</span> Identificação de riscos<a class="anchor" aria-label="anchor" href="#identifica%C3%A7%C3%A3o-de-riscos"><i class="fas fa-link"></i></a>
+</h3>
+<p>Técnicas de identificação de riscos:</p>
+<p>A partir da EAP, os riscos devem ser identificados pela equipe do projeto. Após a lista de risco, é necessário realizar a análise, que pode ser do tipo qualitativa ou quantitativa.</p>
+<ul>
+<li><p>Brainstorming: Geração de ideias sobre o risco do projeto sob a liderança de um facilitador com a equipe do projeto e especialistas externos ao projeto</p></li>
+<li><p>Check-list: checklist é uma lista de perguntas, organizada por tipos ou fontes de risco, que objetiva despertar a noção de risco no projeto</p></li>
+<li><p>SWOT: Associando as forças com as oportunidades, poderemos identificar os riscos positivos do projeto e as fraquezas com as ameaças pode ajudar a identificar os riscos negativos do projeto</p></li>
+<li>
+<p>Delphi: Epecialistas participam anonimamente, buscando um consenso imparcial sem influência da equipe interna</p>
+<ul>
+<li>Softwares: FreeMind, MindGenius, MindManager</li>
+</ul>
+</li>
+<li><p>Slip de Crawford: Cada participante deve receber a documentação a ser analisada com antecedência, para estudá-la com calma e, em seguida, escrever os riscos em um número pré-determinado de fichas</p></li>
+<li><p>Entrevistas: Realizadas com participantes experientes do projeto, stakeholders e especialistas no assunto para identificação de riscos</p></li>
+<li><p>Causa raiz: Investigação das causas essenciais dos riscos do projeto possibilitando o agrupamento de riscos por causas</p></li>
+<li><p>Design thinking: Conjunto de técnicas de incentivo à criação, análise e ao levantamento de informações como apoio visual com objetivo de solucionar um problema</p></li>
+</ul>
+<p>Estrutura analítica de riscos (EAR):</p>
+<p>A classificação ocorre definindo-se a fonte genérica do risco. Tais fontes são tipicamente organizadas em uma estrutura denominada estrutura analítica dos riscos. De acordo com o PMBOK® (PMI, 2013), a EAR é uma representação dos riscos identificados do projeto, organizados hierarquicamente por categoria e subcategoria de riscos</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20EAP%20Riscos.PNG" width="929" style="display: block; margin: auto;"></div>
+</div>
+<div id="análise-qualitativa-dos-riscos" class="section level3" number="22.1.2">
+<h3>
+<span class="header-section-number">22.1.2</span> Análise qualitativa dos riscos<a class="anchor" aria-label="anchor" href="#an%C3%A1lise-qualitativa-dos-riscos"><i class="fas fa-link"></i></a>
+</h3>
+<p>A definição da análise qualitativa dos riscos é feita pela determinação da probabilidade do risco e do seu impactono caso de ele acontecer. Segundo Heldman, Baca e Jansen (2007), a probabilidade é uma medida da força da chance que um evento tem de ocorrer</p>
+<p>Determinar a probabilidade e o impacto pode ser muito complexo, e uma técnica muito usada é o julgamento de um especialista da probabilidade e do impacto</p>
+<p>Existem dois caminhos para a análise qualitativa dos riscos (Salles Jr., 2010):</p>
+<ul>
+<li>
+<strong>Qualificação:</strong> Em que é atribuído um grau de uma escala à chance de o risco ocorrer e um grau de outraescala ao impacto, caso o risco ocorra
+<ul>
+<li>Escalas de Likert:
+Eckes (2001) defende a utilização das chamadas escalas Likert com cinco escolhas. Segundo o autor, as escalas de 1 a 5 são melhores que escalas maiores,como de 1 a 10 ou de 0 a 100, porque as pessoas não utilizam todos os níveis dessas escalas, optando por números extremos. Além disso, as escalas Likert geram mais consistência, uma vez que pessoas com opiniões semelhantes tendem a escolher os mesmos pontos. As escalas podem ser feitas com números, adjetivos ou mesmo cores.</li>
+</ul>
+</li>
+</ul>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Escala%20de%20Likert%20Risco.PNG" width="1112" style="display: block; margin: auto;"></div>
+<blockquote>
+<p>É importante notar que os números utilizados na escala não têm uma relação especial com os valores reais deprobabilidade e impacto. O uso da opção “alta,” por exemplo, associada com o número 0,7 não representa,necessariamente, uma probabilidade de 70% de chance de ocorrência</p>
+</blockquote>
+<p>Surowiecki (2005) documenta inúmeros casos em que as decisões dos grupos são quase sempre melhores do que as que poderiam ser feitas por qualquer membro do grupo individualmente</p>
+<p>Uma vez definida a probabilidade e o impacto de cada risco, devemos, então, calcular a exposição a eles. Naqualificação, isso é normalmente feito com a ajuda de uma matriz de probabilidade versus impacto:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Matriz%20Prob%20x%20Impacto.PNG" width="1131" style="display: block; margin: auto;"></div>
+<p>A análise qualitativa é uma ferramenta simples e de excelente custo x benefício. No entanto, em certas situaçõesuma análise mais sofisticada vale o esforço, de quantificação.</p>
+</div>
+</div>
+<div id="análise-quantitativa-dos-riscos" class="section level2" number="22.2">
+<h2>
+<span class="header-section-number">22.2</span> Análise quantitativa dos riscos<a class="anchor" aria-label="anchor" href="#an%C3%A1lise-quantitativa-dos-riscos"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>
+<strong>Quantificação:</strong> Em que é feita uma estimativa da probabilidade da ocorrência do risco e uma avaliação numérica, normalmente em valor financeiro ou em tempo, do impacto gerado, caso o risco ocorra</li>
+</ul>
+<p>Segundo PMBOK® (PMI, 2013), os objetivos da análise quantitativa dos riscos são:</p>
+<ul>
+<li><p>Quantificar os possíveis resultados do projeto e suas probabilidades</p></li>
+<li><p>Avaliar a probabilidade de se atingir um objetivo específico do projeto</p></li>
+<li><p>Identificar os riscos que requerem mais atenção pela quantificação da sua contribuição relativa ao risco geral do projeto</p></li>
+<li><p>Identificar objetivos de custo, prazo e escopo que sejam realistas e realizáveis, dado o risco do projeto</p></li>
+<li>
+<p>Determinar a melhor decisão de gestão do projeto, quando os resultados forem incertos</p>
+<ul>
+<li>Árvore de decisão: Árvore de decisão é uma representação gráfica dos cálculos do valor esperado. Ela permite avaliar as consequências de decisões do projeto. Existem três tipos de nós
+<ol style="list-style-type: decimal">
+<li>Nós de decisão: Representados por quadrados, são variáveis ou ações que o tomador de decisão controla</li>
+<li>Nós de eventos de oportunidade: Representados por círculos, são variáveis ou eventos que não podem ser controlados pelo tomador de decisão</li>
+<li>Terminal ou nós finais: Representados por campos sem conexão, são pontos finais onde os valores de saída são anexados</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Arvore%20de%20Decisao.PNG" width="1104" style="display: block; margin: auto;"></div>
+<blockquote>
+<p>Pela figura: os arcos de conexão aos nós representam os tipos de cenários levantados e a soma da probabilidade do arco entre os nós deve ser 1, desta forma é possível segregar o impacto numérico para cada probabilidade do fluxo, e isto se mantém a medida que a árvore aumenta suas ramificações. Na análise do investimento, a proporção de análise é das ramificações até a raiz para estimar o custo total do cenário, o resultante disso é uma comparação quantitativa entre os cenários</p>
+</blockquote>
+</div>
+<div id="planejamento-de-resposta-aos-riscos" class="section level2" number="22.3">
+<h2>
+<span class="header-section-number">22.3</span> Planejamento de resposta aos riscos<a class="anchor" aria-label="anchor" href="#planejamento-de-resposta-aos-riscos"><i class="fas fa-link"></i></a>
+</h2>
+<p>O planejamento de respostas a riscos é o processo de elaboração de um plano de ação que permita o aproveitamento das oportunidades e melhor proteção contra as ameaças. O custo da ação deve ser compatível com a exposição ao risco ou, pelo menos, com seu impacto.</p>
+<p>A criação da melhor resposta para cada risco é um processo criativo que é iniciado pela análise da descrição do risco, sua probabilidade, seu impacto e sua exposição. A matriz de probabilidade versus impacto pode indicar adireção geral da resposta. Genericamente, temos dois tipos de respostas:</p>
+<ol style="list-style-type: decimal">
+<li>Proativas ou de contenção: A ação é executada antes de o evento ocorrer</li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Respostas%20Preventivas.PNG" width="2398" style="display: block; margin: auto;"></div>
+<ol start="2" style="list-style-type: decimal">
+<li>Reativas ou de contingência: A ação é executada após o risco se tornar uma realidade e o evento ocorre</li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Respostas%20Reativas.PNG" width="2412" style="display: block; margin: auto;"></div>
+<div id="tipos-de-estratégias-aos-riscos" class="section level3" number="22.3.1">
+<h3>
+<span class="header-section-number">22.3.1</span> Tipos de estratégias aos riscos:<a class="anchor" aria-label="anchor" href="#tipos-de-estrat%C3%A9gias-aos-riscos"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li>Riscos positivos</li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Riscos%20positivos.PNG" width="948" style="display: block; margin: auto;"></div>
+<ol start="2" style="list-style-type: decimal">
+<li>Riscos negativos</li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Riscos%20negativos.PNG" width="943" style="display: block; margin: auto;"></div>
+</div>
+<div id="priorização-dos-riscos" class="section level3" number="22.3.2">
+<h3>
+<span class="header-section-number">22.3.2</span> Priorização dos riscos<a class="anchor" aria-label="anchor" href="#prioriza%C3%A7%C3%A3o-dos-riscos"><i class="fas fa-link"></i></a>
+</h3>
+<p>O objetivo dessa matriz, além de detalhar a lista de riscos identificados, é realizar uma priorização, ou seja, avaliar quais os riscos devem ser tratados por conta da probabilidade versus impacto nos objetivos do projeto e de acordo com a reservas financeiras para o tratamento de riscos</p>
+<p>Cada Risco deve ter sua resposta que estará relacionado diretamente a atividades de cronograma e um custo que deve ser avaliado junto ao orçamento</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Matriz%20Risco.PNG" width="1041" style="display: block; margin: auto;"></div>
+</div>
+</div>
+<div id="monitoramento-e-controle-de-riscos" class="section level2" number="22.4">
+<h2>
+<span class="header-section-number">22.4</span> Monitoramento e controle de riscos<a class="anchor" aria-label="anchor" href="#monitoramento-e-controle-de-riscos"><i class="fas fa-link"></i></a>
+</h2>
+<p>Monitoramento e controle é o processo contínuo de implementar os planos de resposta a riscos, monitorando modificações em seus status e avaliando a efetividade de sua gestão</p>
+<p>Os seguintes eventos provocam uma reavaliação obrigatória dos riscos:</p>
+<ul>
+<li>Um risco desaparece: Ele deve ser retirado do plano e, talvez, substituído por um novo</li>
+<li>Um marco do projeto é alcançado: Os marcos sinalizam mudanças no perfil do risco do projeto</li>
+<li>Ocorre uma mudança no projeto: Uma mudança de escopo, por exemplo, pode mudar o perfil de risco</li>
+<li>Um risco vira evento: Se um risco se torna um fato real, ele deixa de ser risco</li>
+</ul>
+<p>Periodicamente, a equipe deve reavaliar o planejamento de risco tentando detectar:</p>
+<ul>
+<li>Mudanças no status dos riscos</li>
+<li>Probabilidade: A probabilidade de um risco pode aumentar ou diminuir conforme novas informações surgem</li>
+<li>Impacto: O impacto de um risco pode mudar, principalmente em resposta a uma estratégia bem-sucedida de mitigação</li>
+<li>Ineficácia das estratégias: As estratégias escolhidas podem se mostrar inadequadas e ser substituídas</li>
+<li>Novos riscos: À medida que novas informações surgem, novos riscos podem aparecer</li>
+</ul>
+</div>
+<div id="sistemas-de-custeio-de-projetos" class="section level2" number="22.5">
+<h2>
+<span class="header-section-number">22.5</span> Sistemas de custeio de projetos<a class="anchor" aria-label="anchor" href="#sistemas-de-custeio-de-projetos"><i class="fas fa-link"></i></a>
+</h2>
+<div id="custos-diretos" class="section level3" number="22.5.1">
+<h3>
+<span class="header-section-number">22.5.1</span> Custos diretos<a class="anchor" aria-label="anchor" href="#custos-diretos"><i class="fas fa-link"></i></a>
+</h3>
+<p>Custos atribuídos ao trabalho direto no projeto, sem necessidade de rateio para alocação, que podem ser do tipo:</p>
+<ul>
+<li>Custos fixos: Custos que não se alteram de acordo com a quantidade de trabalho do projeto ou de atividades de produção</li>
+<li>Custos variáveis: Qualquer custo que se altera proporcionalmente à quantidade de trabalho do projeto ou de produtos fabricados</li>
+</ul>
+</div>
+<div id="custos-indiretos" class="section level3" number="22.5.2">
+<h3>
+<span class="header-section-number">22.5.2</span> Custos indiretos<a class="anchor" aria-label="anchor" href="#custos-indiretos"><i class="fas fa-link"></i></a>
+</h3>
+<p>Custos indiretos são despesas e gastos gerais incorridos em benefício de mais de um projeto, não identificados diretamente às suas atividades e referentes à continuidade do negócio. Podem ser alocados usando o critério de rateio, podendo ser do tipo:</p>
+<ul>
+<li>Custos administrativos: Relacionados às atividades de administração da empresa</li>
+<li>Custos comerciais: Decorrentes das atividades de comercialização dos produtos e serviços da empresa</li>
+<li>Custos tributários: Custos relacionados a disposições legais, compreendendo tributos, e tarifas</li>
+<li>Custos financeiros: Referentes ao custo do dinheiro, juros de empréstimo para financiar capital de giro daorganização ou para aquisição de bens duráveis</li>
+</ul>
+</div>
+<div id="técnica-do-valor-agregado-tva" class="section level3" number="22.5.3">
+<h3>
+<span class="header-section-number">22.5.3</span> Técnica do valor agregado (TVA)<a class="anchor" aria-label="anchor" href="#t%C3%A9cnica-do-valor-agregado-tva"><i class="fas fa-link"></i></a>
+</h3>
+<p>Segundo Barbosa e colaboradores (2009:103) a principal vantagem dessa metodologia de gestão é integrar o que está sendo entregue pelo projeto (escopo) na linha do tempo (cronograma) considerando todos os recursos que foram utilizados (custos) para medir objetivamente o desempenho do projeto</p>
+<p>A base da TVA é a determinação de três dimensões de análise:</p>
+<ol style="list-style-type: decimal">
+<li>Valor planejado (VP): Representa o trabalho que deveria ter sido feito</li>
+<li>Custo real (CR): Representa o quanto custou o trabalho que foi feito</li>
+<li>Valor agregado (VA): Representa o valor do trabalho que já foi feito</li>
+</ol>
+<p>Segundo o PMBOK® (PMI, 2013), a TVA tem a vantagem de promover a integração de medidas de cronograma, custos (ou recursos) e escopo no processo de avaliar o desempenho do projeto</p>
+<p>A partir das três dimensões básicas (VP, CR e VA), a TVA permite a geração de um grande número deindicadores e índices. Os principais são:</p>
+<p>$$
+<span class="math display">\[\begin{align*}
+   &amp; VC \ \ = \ \ VA - CR  \\ 
+   &amp; VP_r \ \ = \ \ VA - VP \\
+   &amp; ENT \ \ = \ \ \sum_{i}^{N} CR_i \\
+   
+\\   
+\textbf{Onde:} \\
+
+&amp; VC = \text{Variação de Custos} \\
+&amp; VA = \text{Valor Agregado} \\
+&amp; VP = \text{Valor Planejado} \\
+&amp; CR = \text{Custo Real} \\
+&amp; VP_r = \text{variação de prazo} \\
+&amp; ENT = \text{Estimado no término} \\
+&amp; i = \text{índice do tempo} \\
+&amp; N = \text{Tempo final} \\
+
+\end{align*}\]</span>
+$$</p>
+<p>Outros indicadores:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Indicadores%20orcamento.PNG" width="1657" style="display: block; margin: auto;"></div>
+<p>Vargas (2002), mostra alguns dos indicadores em uma análise gráfica cumulativa:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Indicadores%20Analise%20Evolutiva.PNG" width="1250" style="display: block; margin: auto;"></div>
+<p>Apesar de sua riqueza em opções de análise, os três indicadores destacados (VC, VPr ENT) são os mais comumente usados em TVA. Existem outros indicadores:</p>
+<ul>
+<li>VT: Aponta a quantidade de atraso atual em dias</li>
+<li>AAT: Mostra a quantidade prevista no fim do projeto em dias.</li>
+</ul>
+<p>No entanto, eles podem ser mais acuradamente medidos diretamente no cronograma. Por outro lado, os indicadores VC e VPr são característicos do método e podem fornecer informações importantes. Usados em conjunto, permitem que um executivo ou cliente infira o que está acontecendo no projeto, mesmo sem ter detalhes de seu andamento, conforme quadro:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Quadro%20Indicadores.PNG" width="1699" style="display: block; margin: auto;"></div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="acompanhando-a-gest%C3%A3o-do-projeto.html"><span class="header-section-number">21</span> Acompanhando a gestão do projeto</a></div>
+<div class="next"><a href="pr%C3%A1ticas-de-projetos-e-outros-padr%C3%B5es.html"><span class="header-section-number">23</span> Práticas de projetos e outros padrões</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#controle-de-projetos"><span class="header-section-number">22</span> Controle de projetos</a></li>
+<li>
+<a class="nav-link" href="#riscos-em-projetos"><span class="header-section-number">22.1</span> Riscos em projetos</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#identifica%C3%A7%C3%A3o-de-riscos"><span class="header-section-number">22.1.1</span> Identificação de riscos</a></li>
+<li><a class="nav-link" href="#an%C3%A1lise-qualitativa-dos-riscos"><span class="header-section-number">22.1.2</span> Análise qualitativa dos riscos</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#an%C3%A1lise-quantitativa-dos-riscos"><span class="header-section-number">22.2</span> Análise quantitativa dos riscos</a></li>
+<li>
+<a class="nav-link" href="#planejamento-de-resposta-aos-riscos"><span class="header-section-number">22.3</span> Planejamento de resposta aos riscos</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#tipos-de-estrat%C3%A9gias-aos-riscos"><span class="header-section-number">22.3.1</span> Tipos de estratégias aos riscos:</a></li>
+<li><a class="nav-link" href="#prioriza%C3%A7%C3%A3o-dos-riscos"><span class="header-section-number">22.3.2</span> Priorização dos riscos</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#monitoramento-e-controle-de-riscos"><span class="header-section-number">22.4</span> Monitoramento e controle de riscos</a></li>
+<li>
+<a class="nav-link" href="#sistemas-de-custeio-de-projetos"><span class="header-section-number">22.5</span> Sistemas de custeio de projetos</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#custos-diretos"><span class="header-section-number">22.5.1</span> Custos diretos</a></li>
+<li><a class="nav-link" href="#custos-indiretos"><span class="header-section-number">22.5.2</span> Custos indiretos</a></li>
+<li><a class="nav-link" href="#t%C3%A9cnica-do-valor-agregado-tva"><span class="header-section-number">22.5.3</span> Técnica do valor agregado (TVA)</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/03-GestaoProjetos.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/03-GestaoProjetos.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>A Minimal Book Example</strong>" was written by John Doe. It was last built on 2022-02-10.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

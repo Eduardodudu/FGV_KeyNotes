@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 20 Estrutura do gerenciamento de projetos | A Minimal Book Example</title>
+<meta name="author" content="John Doe">
+<meta name="description" content="Sequenciamento apresentado:  20.1 Termo de abertura Também chamado de project charter, é o documento que reconhece formalmente a existência do projeto. O termo de abertura apresenta informações...">
+<meta name="generator" content="bookdown 0.24 with bs4_book()">
+<meta property="og:title" content="Chapter 20 Estrutura do gerenciamento de projetos | A Minimal Book Example">
+<meta property="og:type" content="book">
+<meta property="og:description" content="Sequenciamento apresentado:  20.1 Termo de abertura Também chamado de project charter, é o documento que reconhece formalmente a existência do projeto. O termo de abertura apresenta informações...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 20 Estrutura do gerenciamento de projetos | A Minimal Book Example">
+<meta name="twitter:description" content="Sequenciamento apresentado:  20.1 Termo de abertura Também chamado de project charter, é o documento que reconhece formalmente a existência do projeto. O termo de abertura apresenta informações...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="bs4_style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">A Minimal Book Example</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"><span class="header-section-number">1</span> About</a></li>
+<li><a class="" href="gestao-estrategica.html"><span class="header-section-number">2</span> Gestão Estratégica</a></li>
+<li><a class="" href="evolu%C3%A7%C3%A3o-do-pensamento-estrat%C3%A9gico.html"><span class="header-section-number">3</span> Evolução do pensamento estratégico</a></li>
+<li><a class="" href="administra%C3%A7%C3%A3o-estrat%C3%A9gica-e-alinhamento.html"><span class="header-section-number">4</span> Administração estratégica e alinhamento</a></li>
+<li><a class="" href="refer%C3%AAnciais-estrat%C3%A9gicos.html"><span class="header-section-number">5</span> Referênciais estratégicos</a></li>
+<li><a class="" href="an%C3%A1lise-do-ambiente-externo.html"><span class="header-section-number">6</span> Análise do ambiente externo</a></li>
+<li><a class="" href="an%C3%A1lise-do-ambiente-interno.html"><span class="header-section-number">7</span> Análise do ambiente interno</a></li>
+<li><a class="" href="formula%C3%A7%C3%A3o-da-estrategia-competitiva.html"><span class="header-section-number">8</span> Formulação da estrategia competitiva</a></li>
+<li><a class="" href="objetivos-estrat%C3%A9gicos.html"><span class="header-section-number">9</span> Objetivos estratégicos</a></li>
+<li><a class="" href="balanced-scorecard.html"><span class="header-section-number">10</span> Balanced Scorecard</a></li>
+<li><a class="" href="bibliografia.html"><span class="header-section-number">11</span> Bibliografia</a></li>
+<li><a class="" href="Gestao-de-pessoas.html"><span class="header-section-number">12</span> Gestão de pessoas</a></li>
+<li><a class="" href="condicionantes-externos-e-mudan%C3%A7as-organizacionais.html"><span class="header-section-number">13</span> Condicionantes externos e mudanças organizacionais</a></li>
+<li><a class="" href="tend%C3%AAncias-da-gest%C3%A3o-org-contempor%C3%A2nea.html"><span class="header-section-number">14</span> Tendências da gestão org contemporânea</a></li>
+<li><a class="" href="alinhamento-dos-interesses-corporativos-e-individuais.html"><span class="header-section-number">15</span> Alinhamento dos interesses corporativos e individuais</a></li>
+<li><a class="" href="lideran%C3%A7a-tend%C3%AAncias-e-desafios.html"><span class="header-section-number">16</span> Liderança: Tendências e desafios</a></li>
+<li><a class="" href="bibliografia-1.html"><span class="header-section-number">17</span> Bibliografia</a></li>
+<li><a class="" href="gestao-projetos.html"><span class="header-section-number">18</span> Gestão de projetos</a></li>
+<li><a class="" href="conceitos-e-caracter%C3%ADsticas-dos-projetos.html"><span class="header-section-number">19</span> Conceitos e características dos projetos</a></li>
+<li><a class="active" href="estrutura-do-gerenciamento-de-projetos-1.html"><span class="header-section-number">20</span> Estrutura do gerenciamento de projetos</a></li>
+<li><a class="" href="acompanhando-a-gest%C3%A3o-do-projeto.html"><span class="header-section-number">21</span> Acompanhando a gestão do projeto</a></li>
+<li><a class="" href="controle-de-projetos.html"><span class="header-section-number">22</span> Controle de projetos</a></li>
+<li><a class="" href="pr%C3%A1ticas-de-projetos-e-outros-padr%C3%B5es.html"><span class="header-section-number">23</span> Práticas de projetos e outros padrões</a></li>
+<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">24</span> Footnotes and citations</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="estrutura-do-gerenciamento-de-projetos-1" class="section level1" number="20">
+<h1>
+<span class="header-section-number">20</span> Estrutura do gerenciamento de projetos<a class="anchor" aria-label="anchor" href="#estrutura-do-gerenciamento-de-projetos-1"><i class="fas fa-link"></i></a>
+</h1>
+<p>Sequenciamento apresentado:</p>
+<div id="termo-de-abertura" class="section level2" number="20.1">
+<h2>
+<span class="header-section-number">20.1</span> Termo de abertura<a class="anchor" aria-label="anchor" href="#termo-de-abertura"><i class="fas fa-link"></i></a>
+</h2>
+<p>Também chamado de project charter, é o documento que reconhece formalmente a existência do projeto. O termo de abertura apresenta informações importantes para o planejamento, e sua estrutura pode ser adaptada de acordo com as necessidades de cada organização, desde que seja redigido em um número reduzido de páginas, pois não se trata do projeto em si, mas do termo de abertura. A partir do termo de abertura, será possível identificar quais são os elementos necessários à estruturação e apresentação do projeto</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Termo%20de%20Abertura.png" width="1085" style="display: block; margin: auto;"></div>
+</div>
+<div id="plano-de-projeto" class="section level2" number="20.2">
+<h2>
+<span class="header-section-number">20.2</span> Plano de projeto<a class="anchor" aria-label="anchor" href="#plano-de-projeto"><i class="fas fa-link"></i></a>
+</h2>
+<p>O plano do projeto é o principal documento resultante da etapa de planejamento, que norteará a execução do projeto e estabelecerá a base de referência para a execução e o controle necessário, até seu encerramento. Reunirá documentos relacionados às diversas áreas de conhecimentos a serem consideradas no gerenciamento de um projeto:</p>
+<ul>
+<li>Objetivo do projeto</li>
+<li>Mapa dos principais stakeholders</li>
+<li>Expectativas traduzidas em metas claras</li>
+<li>Escopo detalhado com especificação dos produtos resultantes de cada etapa</li>
+<li>Critérios de aceitação dos produtos (qualidade)</li>
+<li>Estrutura organizacional do projeto</li>
+<li>Matriz de responsabilidades</li>
+<li>Custo orçado para a execução, detalhado em etapas e entregáveis</li>
+<li>Duração de cada etapa e esforço necessário para execução</li>
+<li>Cronograma representando a estratégia de execução do projeto</li>
+<li>Especificação das tolerâncias acordadas entre as partes</li>
+<li>Especificação dos riscos e ações preventivas e contingenciais</li>
+<li>Especificação dos principais eventos de comunicação e estratégias necessárias para distribuição das informações para as partes envolvidas</li>
+<li>Definições sobre a forma como serão tratadas eventuais mudanças</li>
+</ul>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Visao%20do%20plano%20de%20projeto.PNG" width="801" style="display: block; margin: auto;"></div>
+</div>
+<div id="declaração-de-escopo-dep" class="section level2" number="20.3">
+<h2>
+<span class="header-section-number">20.3</span> Declaração de escopo (DEP)<a class="anchor" aria-label="anchor" href="#declara%C3%A7%C3%A3o-de-escopo-dep"><i class="fas fa-link"></i></a>
+</h2>
+<p>Documento descritivo que, a partir do termo de abertura do projeto aprovado, inicia o desdobramento e detalhamento do produto final do projeto, tidos como chave em toda a história de um projeto e do seu gerenciamento até a conclusão, deve ser elaborada de maneira colaborativa com os principais envolvidos e ao ser completada, essa declaração servirá de input para a confecção da ferramenta da EAP</p>
+<p>Alguns tópicos que podem constar no documento:</p>
+<ul>
+<li>Nome do projeto</li>
+<li>Objetivo</li>
+<li>Produto final</li>
+<li>Escopo funcional</li>
+<li>Documentação técnica</li>
+<li>Documentação de referência</li>
+<li>Exclusões do escopo do projeto</li>
+<li>Fatores críticos de sucesso</li>
+<li>Análise preliminar dos riscos</li>
+<li>Critérios de aprovação do produto final</li>
+</ul>
+</div>
+<div id="estrutura-analítica-do-projeto-eapwbs" class="section level2" number="20.4">
+<h2>
+<span class="header-section-number">20.4</span> Estrutura Analítica do Projeto (EAP/WBS)<a class="anchor" aria-label="anchor" href="#estrutura-anal%C3%ADtica-do-projeto-eapwbs"><i class="fas fa-link"></i></a>
+</h2>
+<p>O primeiro passo para a efetiva gestão do projeto é criar sua estrutura. Isso ajuda a entendê-lo como um todo, dando uma visão do que se pretende alcançar, em um nível de detalhamento apropriado. Essa estrutura é denominada estrutura analítica do projeto (EAP). A EAP é baseada no conteúdo do escopo do projeto e na entrada de insumos gerados por meio da percepção de especialistas e técnicos que tenham vivenciado projetos similares. Ela se organiza de maneira hierárquica, podendo ser apresentada de forma gráfica (mais comum, lembrando um organograma) ou em forma de lista itemizada</p>
+<p>A ferramenta ilustra, de forma simples, a visão de todo o trabalho a ser feito, divide o produto do projeto em partes lógicas e inter-relacionadas hierarquicamente e também é usada como ferramenta de comunicação.</p>
+<p>Técnicas para a composiçao da EAP:</p>
+<ol style="list-style-type: decimal">
+<li>Decomposição: Assumir a visão do projeto e estruturar em pedaços, podendo ser usando em conjunto das fases do ciclo de vida do projeto</li>
+<li>Pacotes de trabalho: Usar as entregas do projeto</li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Exemplo%20EAP.PNG" width="1106" style="display: block; margin: auto;"></div>
+<p>Dicas de limite de composição da EAP:</p>
+<ol style="list-style-type: decimal">
+<li>Ao decompor o nível superior, é necessário no mínimo 2 filhos</li>
+<li>Em subníveis, cada atividade deve ter no mínimo oito horas de atividades e, no máximo, 80 horas de atividade</li>
+<li>Ponto de atenção: se o menor nível estiver usando a regra 8/80h e possuir 240 horas de atividades, significa que será necessário decompor em três pacotes de trabalho de 80 horas</li>
+<li>Necessário elaborar o cronograma de atividades para saber a quantidade de tempo necessária para as atividades</li>
+</ol>
+<p>Exemplo: Mapeamento de processos</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20EAP%20Mapeamento%20Processos.PNG" width="1041" style="display: block; margin: auto;"></div>
+</div>
+<div id="linha-de-base" class="section level2" number="20.5">
+<h2>
+<span class="header-section-number">20.5</span> Linha de base<a class="anchor" aria-label="anchor" href="#linha-de-base"><i class="fas fa-link"></i></a>
+</h2>
+<p>A linha de base serve como:</p>
+<ul>
+<li>Parâmetro de comparação entre planejado e realizado</li>
+<li>Avaliação da performance do projeto.</li>
+</ul>
+<p>O plano de gerenciamento do projeto contém inúmeras linhas de base para a mensuração do desempenho, chamadas de Linha de Base de Performance de um Projeto:</p>
+<ul>
+<li>Escopo</li>
+<li>Tempo</li>
+<li>Custo</li>
+</ul>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Linha%20de%20Base.PNG" width="952" style="display: block; margin: auto;"></div>
+</div>
+<div id="lista-de-atividades" class="section level2" number="20.6">
+<h2>
+<span class="header-section-number">20.6</span> Lista de atividades<a class="anchor" aria-label="anchor" href="#lista-de-atividades"><i class="fas fa-link"></i></a>
+</h2>
+<p>O resultado da EAP é um conjunto de atividades bem estruturado, contendo todas as atividades que estão previstas para o projeto. Não há, em um primeiro momento, a identificação dos relacionamentos, mas apenas uma lista das atividades do projeto, com um número para identificação e uma possível descrição do escopo a que se refere. A lista das atividades pode conter, além das descrições propriamente ditas, outros identificadores, como atividades predecessoras e sucessoras, recursos necessários e prazos para a realização do projeto. Esses detalhamentos servirão para o processo de criação e acompanhamento do cronograma e do sequenciamento de atividades</p>
+</div>
+<div id="determinação-do-sequenciamento-das-atividades" class="section level2" number="20.7">
+<h2>
+<span class="header-section-number">20.7</span> Determinação do sequenciamento das atividades<a class="anchor" aria-label="anchor" href="#determina%C3%A7%C3%A3o-do-sequenciamento-das-atividades"><i class="fas fa-link"></i></a>
+</h2>
+<p>Após a elaboração da lista de atividades, é importante estabelecer o relacionamento lógico entre elas. Isso significa sequenciar essas atividades através do <strong>diagrama de rede</strong></p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Sequenciamento%20Atividades.PNG" width="1177" style="display: block; margin: auto;"></div>
+<div id="método-do-diagrama-de-precedência-mdp" class="section level3" number="20.7.1">
+<h3>
+<span class="header-section-number">20.7.1</span> Método do diagrama de precedência (MDP):<a class="anchor" aria-label="anchor" href="#m%C3%A9todo-do-diagrama-de-preced%C3%AAncia-mdp"><i class="fas fa-link"></i></a>
+</h3>
+<p>O MDP é uma técnica adequada para identificação do sequenciamento das atividades. A identificação das dependências é baseada em três tipos:</p>
+<ol style="list-style-type: decimal">
+<li>Dependências obrigatória: Envolvem limitação de recursos</li>
+<li>Dependências arbitradas: Baseadas em informações históricas ou melhores práticas</li>
+<li>Dependências externas: Estão fora do projeto e influenciam diretamente as redes de atividades</li>
+</ol>
+<p>Há quatro tipos de relações de dependência e precedência que podem ser demonstradas por meio dos diagramas de rede:</p>
+<ol style="list-style-type: decimal">
+<li>Término para início: A atividade sucessora somente poderá ser iniciada após a predecessora ter sido concluída</li>
+<li>Término para término: O término da atividade sucessora depende do término da atividade predecessora, mas as duas acontecem em paralelo</li>
+<li>Início para início: O início da atividade sucessora somente poderá ocorrer após o início da atividade predecessora</li>
+<li>Início para término: O início da atividade sucessora estabelece o fim da atividade anterior predecessora</li>
+</ol>
+<p>O método do diagrama de precedência mais utilizado é o término para início, muitos softwares já desenvolvem em conjunto do MDP com o cronograma do projeto:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20MDP.PNG" width="956" style="display: block; margin: auto;"></div>
+</div>
+</div>
+<div id="cronograma-de-projeto" class="section level2" number="20.8">
+<h2>
+<span class="header-section-number">20.8</span> Cronograma de projeto<a class="anchor" aria-label="anchor" href="#cronograma-de-projeto"><i class="fas fa-link"></i></a>
+</h2>
+<p>O cronograma é uma ferramenta que apoia a aplicação e organização das atividades de algumas práticas e técnicas, <strong>sempre pautada pela EAP e a lista de atividades</strong>, considerando:</p>
+<ol style="list-style-type: decimal">
+<li>Relacionamento lógico entre as atividades</li>
+<li>Recursos envolvidos em cada atividade</li>
+<li>Orçamento</li>
+<li>Outros itens</li>
+</ol>
+<p>A estrutura inicial tem como base a estrutura analítica do projeto, como em exemplo:</p>
+<ol style="list-style-type: decimal">
+<li>Projeto</li>
+<li>Fase 1
+<ol style="list-style-type: decimal">
+<li>Entrega 1
+<ol style="list-style-type: decimal">
+<li>Pacote de trabalho 1
+<ol style="list-style-type: decimal">
+<li>Atividade 01
+<ul>
+<li>Tempo</li>
+<li>Recursos</li>
+<li>Custo</li>
+</ul>
+</li>
+<li>Atividade 02</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>É importante criar um equilíbrio no grau de detalhamento das atividades, relacionado diretamente ao tipo, porte e à complexidade do projeto</p>
+</blockquote>
+<div id="estimativa-de-duração-das-atividades" class="section level3" number="20.8.1">
+<h3>
+<span class="header-section-number">20.8.1</span> Estimativa de duração das atividades<a class="anchor" aria-label="anchor" href="#estimativa-de-dura%C3%A7%C3%A3o-das-atividades"><i class="fas fa-link"></i></a>
+</h3>
+<p>A estimativa de duração da atividade pode ser obtida utilizando as técnicas:</p>
+<ul>
+<li><strong>Estimativa por analogia (top-down):</strong></li>
+</ul>
+<p>Utilizada quando há especialistas, utiliza valores do projeto, como escopo,custo, orçamento e duração, como parâmetros para o cálculo da duração das atividade</p>
+<ul>
+<li><strong>Estimativa paramétrica:</strong></li>
+</ul>
+<p>Utilizada quando há informações de projetos similares, é traçada uma relação entre a quantidade de trabalho e a taxa de produtividade de outros projetos</p>
+<ul>
+<li><strong>Analisa das reservas:</strong></li>
+</ul>
+<p>Técnica que examina os riscos para o cronograma do projeto e constrói as reservas de tempo em buffers. Os valores serão bem determinados e com sólidas justificativas</p>
+<ul>
+<li><strong>Estimativa dos três pontos:</strong></li>
+</ul>
+<p>Trata-se de uma média ponderada e variância entre 3 cenários:</p>
+<ul>
+<li>Otimista (O)</li>
+<li>Moderada (M)</li>
+<li>Pessimista (P)</li>
+</ul>
+<p>A média é calculada através da fórmula:</p>
+<p><span class="math display">\[
+\begin{align*}
+   \textbf{Média (M)} &amp; \ = \frac{\left(P+4\cdot M+O\right)}{6}  \\
+\end{align*} 
+\]</span></p>
+<ul>
+<li><strong>Modelo PERT</strong></li>
+</ul>
+<p>O modelo PERT utiliza-se da modelagem dos três pontos e desenvolve o conceito de variância e projeção estatística de uma distribuição empírica gausiana (Normal), tendo a média e a variância calculados em:</p>
+<p><span class="math display">\[
+\begin{align*}
+   \textbf{Média (M)} &amp; \ = \frac{\left(P+4\cdot M+O\right)}{6}  \\
+   \\
+   \textbf{Variância (V)} &amp;  =\ \left(\frac{\left(P-O\right)}{6}\right)^{^2} \\
+\end{align*} 
+\]</span></p>
+<p>O tempo esperado para uma sequência de atividades é a soma dos tempos esperados para cada atividade individualmente. O mesmo acontece com a variância dessa sequência em relação às variâncias individuais das atividades. Podemos aproximar a distribuição de probabilidades da sequência de atividades de uma distribuição normal. Dessa forma, as chances de o tempo total do projeto ultrapassar um valor predeterminado podem ser retiradas de valores tabelados para esse tipo de distribuição de probabilidades</p>
+<p>$$
+<span class="math display">\[\begin{align*}
+   \textbf{Z} &amp; \ = \frac{\left(Ts-Te\right)}{\sqrt{V}} \\ 
+   
+\textbf{Onde:} \\
+
+&amp; Ts = \text{Tempo superior} \\
+&amp; Te = \text{Tempo médio} \\
+&amp; V = \text{Variância}
+\end{align*}\]</span>
+$$
+Com o resultado do valor standard do tempo superior, é possível assimilar a probabilidade do tempo estar dentro do tempo superior estimado, que normalmente é referenciado como o tempo limite da tarefa:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Standard%20Normal.png" width="1507" style="display: block; margin: auto;"></div>
+<p>Seguindo exemplo da tabela acima: Caso uma avaliação de tempo limite de 15 dias tendo Z = 1.33 a probabilidade de que o tempo de execução da tarefa seja 15 dias ou menos é de 90.82%</p>
+</div>
+<div id="o-método-do-caminho-crítico-cpm" class="section level3" number="20.8.2">
+<h3>
+<span class="header-section-number">20.8.2</span> O método do caminho crítico (CPM)<a class="anchor" aria-label="anchor" href="#o-m%C3%A9todo-do-caminho-cr%C3%ADtico-cpm"><i class="fas fa-link"></i></a>
+</h3>
+<p>O CPM foi criado pela DuPont Corporation nos anos 1950 e é uma sequência de atividades de uma rede, da qual apresenta a duração total bem como o caminho mais longo e o mais curto. Um atraso no tempo de qualquer atividade que esteja no caminho crítico fará com que o projeto dure mais</p>
+<p>Segundo o PMBOK®, essa é uma técnica de análise de cronogramas utilizada para determinar a flexibilidade (ou folga) nos caminhos na rede de atividades do projeto, a fim de calcular a duração mínima para o projeto (PMI,2013).</p>
+<p>De posse da EAP, o primeiro passo para a programação é identificar claramente as dependências, a sequência lógica entre as tarefas e aplicar as durações com dias de início e término para cada uma. O resultado final é compreendido por quatro datas:</p>
+<ol style="list-style-type: decimal">
+<li>Data de início da atividade</li>
+<li>Primeira data em que a atividade pode terminar</li>
+<li>Última data em que a atividade pode começar</li>
+<li>Última data em que a atividade pode terminar</li>
+</ol>
+<p>Com base nas dependências do sequenciamento das atividades é possível determinar os quatro tipos de datas e finalizar o diagrama de atividades no tempo, permitindo a avaliação de atividades flexíveis e restritas</p>
+<p>A infraestrutura das datas e execução das atividades no diagrama é da seguinte forma:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Infraestrutura%20CPM.PNG" width="1221" style="display: block; margin: auto;"></div>
+<p>O diagrama segue a seguinte estrutura:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Diagrama%20CPM.PNG" width="897" style="display: block; margin: auto;"></div>
+<p>Conforme na figura:</p>
+<ul>
+<li>
+<p>Atividade C: Tempo de 20 dias</p>
+<pre><code>- Data de início da atividade: Dia 20, resultante da etapa B
+- Primeira data em que a atividade pode terminar: dia 40, devido início + tempo da atividade
+- última data de término: Dia 40, devido ao início da data da atividade fim
+- última data de início: Dia 20, devido última data de término - Tempo da atividade = 20</code></pre>
+</li>
+<li>
+<p>Atividade F: Tempo de atividade 12 dias</p>
+<pre><code>- Data de início da atividade: Dia 9, resultante da etapa E
+- Primeira data em que a atividade pode terminar: dia 21, devido início + tempo da atividade
+- última data de término: Dia 40, devido ao início da data da atividade fim
+- última data de início: Dia 20, devido última data de término - Tempo da atividade = 40 - 12 = 28</code></pre>
+</li>
+</ul>
+<p>Desta forma, é possível avaliar a folga das atividades:</p>
+<ul>
+<li>
+<p>Folga de atividade C: 0, pois tanto a relação de última atividade quanto início de atividade dão 0</p>
+<pre><code>- 40 - 40 = 0
+- 20 - 20 = 0</code></pre>
+</li>
+</ul>
+<p>Isto faz com que esta atividade pertença ao caminho crítico, pois qualquer tempo excedente no tempo de atividade de 20 dias gera um atraso igual na data de fim, isto ocorre no fluxo A -&gt; B -&gt; C -&gt; Fim</p>
+<ul>
+<li>
+<p>Folga da atividade F: 19 dias, pois tanto a relação de última atividade quanto início de atividade dão 19 dias</p>
+<pre><code>- 40 - 21 = 19
+- 28 - 9 = 19</code></pre>
+</li>
+</ul>
+<p>Isto faz com que esta atividade pertença aos fluxos de folga, é importante perceber que as folgas ocorrem devido as dependências presentes em um caminho crítico, isto ocorre no fluxo D -&gt; E -&gt; F -&gt; Fim</p>
+</div>
+<div id="diagrama-de-gantt" class="section level3" number="20.8.3">
+<h3>
+<span class="header-section-number">20.8.3</span> Diagrama de Gantt<a class="anchor" aria-label="anchor" href="#diagrama-de-gantt"><i class="fas fa-link"></i></a>
+</h3>
+<p>O gráfico de Gantt é bastante utilizado por equipes de projeto e costuma ser a visualização-padrão usada pelos softwares de gestão de projetos e é resultado dos métodos aplicados no CPM</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Gantt.PNG" width="1409" style="display: block; margin: auto;"></div>
+</div>
+<div id="técnicas-para-redução-do-tempo-total-do-projeto" class="section level3" number="20.8.4">
+<h3>
+<span class="header-section-number">20.8.4</span> Técnicas para redução do tempo total do projeto<a class="anchor" aria-label="anchor" href="#t%C3%A9cnicas-para-redu%C3%A7%C3%A3o-do-tempo-total-do-projeto"><i class="fas fa-link"></i></a>
+</h3>
+<p>Existem as seguintes técnicas para comprimir o projeto:</p>
+<ul>
+<li><p>Compressão (crashing): ocorre quando há a opção de se reduzir o tempo do projeto, criando soluções alternativas, como alocar mais recursos em determinadas atividades a fim de reduzir suas durações e costuma custar mais caro tende a gerar problemas em situações de recursos muito especializados</p></li>
+<li><p>Paralelismo (fast tracking): É utilizado quando é possível sobrepor etapas queseriam executadas em sequência</p></li>
+<li><p>Nivelamento dos recursos: Visa equilibrar o cronograma de um projeto atendendoa restrições de recursos</p></li>
+</ul>
+</div>
+</div>
+<div id="orçamento" class="section level2" number="20.9">
+<h2>
+<span class="header-section-number">20.9</span> Orçamento<a class="anchor" aria-label="anchor" href="#or%C3%A7amento"><i class="fas fa-link"></i></a>
+</h2>
+<p>O orçamento do projeto deve compor o recurso financeiro para todo o trabalho a ser feito, considerando que, para cada risco identificado, será necessário:</p>
+<ul>
+<li>Descrição</li>
+<li>Oportunidades e ameaças</li>
+<li>Probabilidade</li>
+<li>Impacto</li>
+<li>Estratégia</li>
+<li>Plano de resposta ao risco</li>
+<li>Responsável</li>
+</ul>
+<p>O orçamento do projeto deve compor o valor para todo o trabalho a ser feito, considerando:</p>
+<ul>
+<li>Custos de todos os recursos envolvidos</li>
+<li>Pessoas, equipamento, material, capacitação, contratação, etc</li>
+<li>Reservas para o tratamento de riscos</li>
+</ul>
+<p>Uma técnica simples para determinar o orçamento é feita a partir da EAP, determinando os custos dos componentes menores para os componentes maiores, até determinar o custo total do projeto:</p>
+<ul>
+<li>Passo 1: Determinar o custo dos componentes menores</li>
+</ul>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Elaboracao%20Orcamento%20l.PNG" width="877" style="display: block; margin: auto;"></div>
+<ul>
+<li>Passo 2: Determinar os custos dos componentes maiores</li>
+</ul>
+<p>Observar que o custo das fases será a soma dos pacotes de trabalho que são a soma dos componentes menores</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Elaboracao%20Orcamento%20ll.PNG" width="1177" style="display: block; margin: auto;"></div>
+</div>
+<div id="planejamento-de-custos" class="section level2" number="20.10">
+<h2>
+<span class="header-section-number">20.10</span> Planejamento de custos<a class="anchor" aria-label="anchor" href="#planejamento-de-custos"><i class="fas fa-link"></i></a>
+</h2>
+<p>O orçamento do projeto deve compor o valor (recurso financeiro) para todo o trabalho a ser feito, considerando (mas não se limitando) a elementos ligados as áreas de qualidade, riscos, reservasorçamentárias, aquisições</p>
+<p>Após a aprovação do orçamento de um projeto, é importante determinar o fluxo de caixa. O fato de um orçamento de R$ 1.000.000,00 estar aprovado não significa que o valor estará disponível em caixa no outro dia. É preciso provisionar o desembolso para os pagamentos previstos para o projeto:</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Provisionamento%20Orcamento.PNG" width="910" style="display: block; margin: auto;"></div>
+</div>
+<div id="grupos-de-processos" class="section level2" number="20.11">
+<h2>
+<span class="header-section-number">20.11</span> Grupos de processos:<a class="anchor" aria-label="anchor" href="#grupos-de-processos"><i class="fas fa-link"></i></a>
+</h2>
+<ol style="list-style-type: decimal">
+<li>Iniciação: Formaliza o início de um novo projeto ou fase junto com as principais partes interessadas</li>
+<li>Planejamento: Estrutura o plano do projeto e os seus componentes auxiliares</li>
+<li>Execução: Executa o plano com objetivo de concluir o trabalho definido para construção das entregas do projeto</li>
+<li>Monitoramento e controle: Acompanha as ações em execução e avalia o desempenho com base no plano (Planejado x Realizado)</li>
+<li>Encerramento: Formaliza o término do projeto com os stakeholders</li>
+</ol>
+<p>Áreas de conhecimento do gerenciamento:</p>
+<ol style="list-style-type: decimal">
+<li>Integração: Definir, unificar, agrupar, bem como coordenar vários processos e atividades de gerenciamento de projetos</li>
+<li>Escopo: Assegurar que o projeto inclua todo o trabalho do projeto</li>
+<li>Cronograma: Estruturar, organizar e gerenciar as atividades de todo o trabalho</li>
+<li>Custos: Estimar, determinar e gerenciar os custos de todo o trabalho</li>
+<li>Qualidade: Determinar e garantir a conformidade dos processos de gerenciamento de projetos e produto final</li>
+<li>Recursos: Determinar, mobilizar, desenvolver e gerenciar todos os recursos necessário para todo o trabalho a ser feito pelo projeto</li>
+<li>Comunicações: Definir, organizar, coletar, distribuir e gerenciar todas as comunicações determinadas para o projeto</li>
+<li>Riscos: Identificar, organizar, analisar, implementar as respostas e monitorar os riscos conhecidos do projeto</li>
+<li>Aquisições: Determinar, conduzir e gerenciar as aquisições necessário para realização do trabalho</li>
+<li>Stakeholders: Identificar, engajar e gerenciar as partes interessadas do projeto</li>
+</ol>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Grupos%20de%20Processos%20ll.PNG" width="995" style="display: block; margin: auto;"></div>
+<p>Processos de gerenciamento de projetos :</p>
+<p>49 Processos organizados em visões da área de conhecimento e por grupo de processos, organizados em 10 capítulos (04 a 13) por cada área do conhecimento do gerenciamento, com subcapítulos dos processos</p>
+<p>A orientação é de que um projeto faça a implementação desses cinco grupos de processos, considerando que processos são grupos de ações e atividades inter-relacionadas e sobrepostas. Os processos pertencerão sempre a um dos cinco grupos ou naturezas, porém, na prática, eles serão realizados de forma interativa.</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Grupos%20de%20Processos.PNG" width="641" style="display: block; margin: auto;"></div>
+</div>
+<div id="interação-de-grupos-de-processos-em-um-projeto" class="section level2" number="20.12">
+<h2>
+<span class="header-section-number">20.12</span> Interação de grupos de processos em um projeto<a class="anchor" aria-label="anchor" href="#intera%C3%A7%C3%A3o-de-grupos-de-processos-em-um-projeto"><i class="fas fa-link"></i></a>
+</h2>
+<p>Os grupos de processos de gerenciamento de projetos estão ligados pelos objetivos que produzem. Em geral, as saídas de um processo se tornam entradas para outroprocesso ou são entregas do projeto. Entre os grupos de processos e seus processos, as saídas dos processos estão relacionadas e possuem um impacto nos outros grupos de processos</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Interacao%20Grupos%20Ciclo.PNG" width="6797" style="display: block; margin: auto;"></div>
+</div>
+<div id="processos-de-grupos-area-de-conhecimento" class="section level2" number="20.13">
+<h2>
+<span class="header-section-number">20.13</span> Processos de Grupos &amp; Area de conhecimento<a class="anchor" aria-label="anchor" href="#processos-de-grupos-area-de-conhecimento"><i class="fas fa-link"></i></a>
+</h2>
+<p>Os grupos de processos de gerenciamento de projetos estão ligados pelos objetivos que produzem. Em geral, as saídas de um processo se tornam entradas para outro processo ou são entregas do projeto. O Grupo de processos de planejamento fornece ao Grupo de processos de execução um plano de gerenciamento do projeto e uma declaração do escopo do projeto documentados, e frequentemente atualiza o plano de gerenciamento do projeto conforme o projeto se desenvolve. Além disso, os grupos de processos raramente são eventos distintos ou únicos, eles são atividades sobrepostas que ocorrem em diversos níveis de intensidade durante todo o projeto</p>
+<div class="inline-figure"><img src="01.%20Data/01.%20Images/04.%20Processos%20de%20Grupos%20e%20Area%20de%20conhecimento.png" width="1544" style="display: block; margin: auto;"></div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="conceitos-e-caracter%C3%ADsticas-dos-projetos.html"><span class="header-section-number">19</span> Conceitos e características dos projetos</a></div>
+<div class="next"><a href="acompanhando-a-gest%C3%A3o-do-projeto.html"><span class="header-section-number">21</span> Acompanhando a gestão do projeto</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#estrutura-do-gerenciamento-de-projetos-1"><span class="header-section-number">20</span> Estrutura do gerenciamento de projetos</a></li>
+<li><a class="nav-link" href="#termo-de-abertura"><span class="header-section-number">20.1</span> Termo de abertura</a></li>
+<li><a class="nav-link" href="#plano-de-projeto"><span class="header-section-number">20.2</span> Plano de projeto</a></li>
+<li><a class="nav-link" href="#declara%C3%A7%C3%A3o-de-escopo-dep"><span class="header-section-number">20.3</span> Declaração de escopo (DEP)</a></li>
+<li><a class="nav-link" href="#estrutura-anal%C3%ADtica-do-projeto-eapwbs"><span class="header-section-number">20.4</span> Estrutura Analítica do Projeto (EAP/WBS)</a></li>
+<li><a class="nav-link" href="#linha-de-base"><span class="header-section-number">20.5</span> Linha de base</a></li>
+<li><a class="nav-link" href="#lista-de-atividades"><span class="header-section-number">20.6</span> Lista de atividades</a></li>
+<li>
+<a class="nav-link" href="#determina%C3%A7%C3%A3o-do-sequenciamento-das-atividades"><span class="header-section-number">20.7</span> Determinação do sequenciamento das atividades</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#m%C3%A9todo-do-diagrama-de-preced%C3%AAncia-mdp"><span class="header-section-number">20.7.1</span> Método do diagrama de precedência (MDP):</a></li></ul>
+</li>
+<li>
+<a class="nav-link" href="#cronograma-de-projeto"><span class="header-section-number">20.8</span> Cronograma de projeto</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#estimativa-de-dura%C3%A7%C3%A3o-das-atividades"><span class="header-section-number">20.8.1</span> Estimativa de duração das atividades</a></li>
+<li><a class="nav-link" href="#o-m%C3%A9todo-do-caminho-cr%C3%ADtico-cpm"><span class="header-section-number">20.8.2</span> O método do caminho crítico (CPM)</a></li>
+<li><a class="nav-link" href="#diagrama-de-gantt"><span class="header-section-number">20.8.3</span> Diagrama de Gantt</a></li>
+<li><a class="nav-link" href="#t%C3%A9cnicas-para-redu%C3%A7%C3%A3o-do-tempo-total-do-projeto"><span class="header-section-number">20.8.4</span> Técnicas para redução do tempo total do projeto</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#or%C3%A7amento"><span class="header-section-number">20.9</span> Orçamento</a></li>
+<li><a class="nav-link" href="#planejamento-de-custos"><span class="header-section-number">20.10</span> Planejamento de custos</a></li>
+<li><a class="nav-link" href="#grupos-de-processos"><span class="header-section-number">20.11</span> Grupos de processos:</a></li>
+<li><a class="nav-link" href="#intera%C3%A7%C3%A3o-de-grupos-de-processos-em-um-projeto"><span class="header-section-number">20.12</span> Interação de grupos de processos em um projeto</a></li>
+<li><a class="nav-link" href="#processos-de-grupos-area-de-conhecimento"><span class="header-section-number">20.13</span> Processos de Grupos &amp; Area de conhecimento</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/03-GestaoProjetos.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/03-GestaoProjetos.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>A Minimal Book Example</strong>" was written by John Doe. It was last built on 2022-02-10.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>
